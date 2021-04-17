@@ -54,14 +54,6 @@ services:
     networks:
       iot-network:
         ipv4_address: 10.5.0.9
-  # java:
-  #   container_name: java_docker
-  #   build:
-  #     context: ./java/build
-  #     dockerfile: Dockerfile.java
-  #   networks:
-  #     iot-network:
-  #       ipv4_address: 10.5.0.3
 
   ## 10.5.0.14 - 10.5.0.19
   apache2:
