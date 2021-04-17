@@ -11,7 +11,8 @@ qui jouent une grande importance dans le monde l'**IoT**.
 ![](images/archi_smart_traffic.png?raw=true)
 
 ## Fonctionement
-
+[TODO]
 ## Installation
-
+[TODO]
 ## Usage
+[TODO]
