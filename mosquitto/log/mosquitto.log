@@ -1,0 +1,240 @@
+1618677855: mosquitto version 2.0.7 starting
+1618677855: Config loaded from /mosquitto/config/mosquitto.conf.
+1618677855: Opening ipv4 listen socket on port 1883.
+1618677855: Opening ipv6 listen socket on port 1883.
+1618677855: Opening ipv4 listen socket on port 8883.
+1618677855: Opening ipv6 listen socket on port 8883.
+1618677855: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618677855: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618677855: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618677855: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618677861: mosquitto version 2.0.7 starting
+1618677861: Config loaded from /mosquitto/config/mosquitto.conf.
+1618677861: Opening ipv4 listen socket on port 1883.
+1618677861: Opening ipv6 listen socket on port 1883.
+1618677861: Opening ipv4 listen socket on port 8883.
+1618677861: Opening ipv6 listen socket on port 8883.
+1618677861: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618677861: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618677861: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618677861: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618677866: mosquitto version 2.0.7 starting
+1618677866: Config loaded from /mosquitto/config/mosquitto.conf.
+1618677866: Opening ipv4 listen socket on port 1883.
+1618677866: Opening ipv6 listen socket on port 1883.
+1618677866: Opening ipv4 listen socket on port 8883.
+1618677866: Opening ipv6 listen socket on port 8883.
+1618677866: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618677866: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618677866: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618677866: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618677869: mosquitto version 2.0.7 starting
+1618677869: Config loaded from /mosquitto/config/mosquitto.conf.
+1618677869: Opening ipv4 listen socket on port 1883.
+1618677869: Opening ipv6 listen socket on port 1883.
+1618677869: Opening ipv4 listen socket on port 8883.
+1618677869: Opening ipv6 listen socket on port 8883.
+1618677869: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618677869: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618677869: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618677869: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618677872: mosquitto version 2.0.7 starting
+1618677872: Config loaded from /mosquitto/config/mosquitto.conf.
+1618677872: Opening ipv4 listen socket on port 1883.
+1618677872: Opening ipv6 listen socket on port 1883.
+1618677872: Opening ipv4 listen socket on port 8883.
+1618677872: Opening ipv6 listen socket on port 8883.
+1618677872: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618677872: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618677872: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618677872: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618677876: mosquitto version 2.0.7 starting
+1618677876: Config loaded from /mosquitto/config/mosquitto.conf.
+1618677876: Opening ipv4 listen socket on port 1883.
+1618677876: Opening ipv6 listen socket on port 1883.
+1618677876: Opening ipv4 listen socket on port 8883.
+1618677876: Opening ipv6 listen socket on port 8883.
+1618677876: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618677876: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618677876: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618677876: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618677881: mosquitto version 2.0.7 starting
+1618677881: Config loaded from /mosquitto/config/mosquitto.conf.
+1618677881: Opening ipv4 listen socket on port 1883.
+1618677881: Opening ipv6 listen socket on port 1883.
+1618677881: Opening ipv4 listen socket on port 8883.
+1618677881: Opening ipv6 listen socket on port 8883.
+1618677881: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618677881: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618677881: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618677881: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618677890: mosquitto version 2.0.7 starting
+1618677890: Config loaded from /mosquitto/config/mosquitto.conf.
+1618677890: Opening ipv4 listen socket on port 1883.
+1618677890: Opening ipv6 listen socket on port 1883.
+1618677890: Opening ipv4 listen socket on port 8883.
+1618677890: Opening ipv6 listen socket on port 8883.
+1618677890: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618677890: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618677890: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618677890: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618677905: mosquitto version 2.0.7 starting
+1618677905: Config loaded from /mosquitto/config/mosquitto.conf.
+1618677905: Opening ipv4 listen socket on port 1883.
+1618677905: Opening ipv6 listen socket on port 1883.
+1618677905: Opening ipv4 listen socket on port 8883.
+1618677905: Opening ipv6 listen socket on port 8883.
+1618677905: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618677905: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618677905: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618677905: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618678334: mosquitto version 2.0.7 starting
+1618678334: Config loaded from /mosquitto/config/mosquitto.conf.
+1618678334: Opening ipv4 listen socket on port 1883.
+1618678334: Opening ipv6 listen socket on port 1883.
+1618678334: Opening ipv4 listen socket on port 8883.
+1618678334: Opening ipv6 listen socket on port 8883.
+1618678334: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618678334: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618678334: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618678334: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618678341: mosquitto version 2.0.7 starting
+1618678341: Config loaded from /mosquitto/config/mosquitto.conf.
+1618678341: Opening ipv4 listen socket on port 1883.
+1618678341: Opening ipv6 listen socket on port 1883.
+1618678341: Opening ipv4 listen socket on port 8883.
+1618678341: Opening ipv6 listen socket on port 8883.
+1618678341: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618678341: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618678341: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618678341: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618678346: mosquitto version 2.0.7 starting
+1618678346: Config loaded from /mosquitto/config/mosquitto.conf.
+1618678346: Opening ipv4 listen socket on port 1883.
+1618678346: Opening ipv6 listen socket on port 1883.
+1618678346: Opening ipv4 listen socket on port 8883.
+1618678346: Opening ipv6 listen socket on port 8883.
+1618678346: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618678346: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618678346: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618678346: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618678349: mosquitto version 2.0.7 starting
+1618678349: Config loaded from /mosquitto/config/mosquitto.conf.
+1618678349: Opening ipv4 listen socket on port 1883.
+1618678349: Opening ipv6 listen socket on port 1883.
+1618678349: Opening ipv4 listen socket on port 8883.
+1618678349: Opening ipv6 listen socket on port 8883.
+1618678349: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618678349: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618678349: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618678349: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618678352: mosquitto version 2.0.7 starting
+1618678352: Config loaded from /mosquitto/config/mosquitto.conf.
+1618678352: Opening ipv4 listen socket on port 1883.
+1618678352: Opening ipv6 listen socket on port 1883.
+1618678352: Opening ipv4 listen socket on port 8883.
+1618678352: Opening ipv6 listen socket on port 8883.
+1618678352: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618678352: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618678352: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618678352: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618678356: mosquitto version 2.0.7 starting
+1618678356: Config loaded from /mosquitto/config/mosquitto.conf.
+1618678356: Opening ipv4 listen socket on port 1883.
+1618678356: Opening ipv6 listen socket on port 1883.
+1618678356: Opening ipv4 listen socket on port 8883.
+1618678356: Opening ipv6 listen socket on port 8883.
+1618678356: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618678356: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618678356: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618678356: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618678362: mosquitto version 2.0.7 starting
+1618678362: Config loaded from /mosquitto/config/mosquitto.conf.
+1618678362: Opening ipv4 listen socket on port 1883.
+1618678362: Opening ipv6 listen socket on port 1883.
+1618678362: Opening ipv4 listen socket on port 8883.
+1618678362: Opening ipv6 listen socket on port 8883.
+1618678362: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618678362: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618678362: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618678362: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618678849: mosquitto version 2.0.7 starting
+1618678849: Config loaded from /mosquitto/config/mosquitto.conf.
+1618678849: Opening ipv4 listen socket on port 1883.
+1618678849: Opening ipv6 listen socket on port 1883.
+1618678849: Opening ipv4 listen socket on port 8883.
+1618678849: Opening ipv6 listen socket on port 8883.
+1618678849: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618678849: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618678849: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618678849: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618678853: mosquitto version 2.0.7 starting
+1618678853: Config loaded from /mosquitto/config/mosquitto.conf.
+1618678853: Opening ipv4 listen socket on port 1883.
+1618678853: Opening ipv6 listen socket on port 1883.
+1618678853: Opening ipv4 listen socket on port 8883.
+1618678853: Opening ipv6 listen socket on port 8883.
+1618678853: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618678853: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618678853: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618678853: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618678858: mosquitto version 2.0.7 starting
+1618678858: Config loaded from /mosquitto/config/mosquitto.conf.
+1618678858: Opening ipv4 listen socket on port 1883.
+1618678858: Opening ipv6 listen socket on port 1883.
+1618678858: Opening ipv4 listen socket on port 8883.
+1618678858: Opening ipv6 listen socket on port 8883.
+1618678858: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618678858: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618678858: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618678858: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618678861: mosquitto version 2.0.7 starting
+1618678861: Config loaded from /mosquitto/config/mosquitto.conf.
+1618678861: Opening ipv4 listen socket on port 1883.
+1618678861: Opening ipv6 listen socket on port 1883.
+1618678861: Opening ipv4 listen socket on port 8883.
+1618678861: Opening ipv6 listen socket on port 8883.
+1618678861: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618678861: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618678861: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618678861: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618678864: mosquitto version 2.0.7 starting
+1618678864: Config loaded from /mosquitto/config/mosquitto.conf.
+1618678864: Opening ipv4 listen socket on port 1883.
+1618678864: Opening ipv6 listen socket on port 1883.
+1618678864: Opening ipv4 listen socket on port 8883.
+1618678864: Opening ipv6 listen socket on port 8883.
+1618678864: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618678864: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618678864: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618678864: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618678868: mosquitto version 2.0.7 starting
+1618678868: Config loaded from /mosquitto/config/mosquitto.conf.
+1618678868: Opening ipv4 listen socket on port 1883.
+1618678868: Opening ipv6 listen socket on port 1883.
+1618678868: Opening ipv4 listen socket on port 8883.
+1618678868: Opening ipv6 listen socket on port 8883.
+1618678868: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618678868: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618678868: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618678868: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618678873: mosquitto version 2.0.7 starting
+1618678873: Config loaded from /mosquitto/config/mosquitto.conf.
+1618678873: Opening ipv4 listen socket on port 1883.
+1618678873: Opening ipv6 listen socket on port 1883.
+1618678873: Opening ipv4 listen socket on port 8883.
+1618678873: Opening ipv6 listen socket on port 8883.
+1618678873: Error: Unable to load server key file "/mosquitto/config/certs/mqtt.example.com.key". Check keyfile.
+1618678873: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1618678873: OpenSSL Error[1]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1618678873: OpenSSL Error[2]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1618679076: mosquitto version 2.0.7 starting
+1618679076: Config loaded from /mosquitto/config/mosquitto.conf.
+1618679076: Opening ipv4 listen socket on port 1883.
+1618679076: Opening ipv6 listen socket on port 1883.
+1618679076: mosquitto version 2.0.7 running
+1618679130: New connection from 10.5.0.9:59894 on port 1883.
+1618679131: New client connected from 10.5.0.9:59894 as FR51100-JAURES-GW-001 (p2, c1, k60).
+1618679154: Client FR51100-JAURES-GW-001 closed its connection.
+1618679156: mosquitto version 2.0.7 terminating
+1618679156: Saving in-memory database to /mosquitto/data//mosquitto.db.
