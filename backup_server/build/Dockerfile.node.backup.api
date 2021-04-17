@@ -1,0 +1,11 @@
+FROM node:current-alpine3.13
+
+WORKDIR /data/server
+
+# COPY ./tmc/tmc-iot-web/ /data/tmc/tmc-iot-web
+# RUN yarn install 
+
+ENTRYPOINT ["tail", "-f", "/dev/null"]
+# # CMD ["/dev/null"]
+
+EXPOSE 8080

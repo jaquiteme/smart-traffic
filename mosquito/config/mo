@@ -1,0 +1,15 @@
+connection gateway-mosquitto.example.com
+bind_address 10.5.0.8
+allow_anonymous true
+cleansession true
+
+persistence true
+persistence_location /mosquitto/data/
+log_dest file /mosquitto/log/mosquitto.log
+topic cars/data/CAM
+topic cars/data/DNEM
+topic cars/data/CAM/zone/in
+topic cars/data/CAM/zone/out
+topic cars/data/DNEM/roadworks
+topic cars/data/DNEM/accident
+topic cars/data/DNEM/jam

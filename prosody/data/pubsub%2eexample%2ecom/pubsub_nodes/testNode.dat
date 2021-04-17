@@ -1,0 +1,19 @@
+return {
+	["name"] = "testNode";
+	["config"] = {
+		["max_items"] = 20;
+		["include_payload"] = false;
+		["persist_items"] = true;
+		["publish_model"] = "open";
+		["notify_retract"] = true;
+		["access_model"] = "open";
+	};
+	["subscribers"] = {
+		["jordy@example.com"] = true;
+		["user1@example.com"] = true;
+		["user1@example.com/tplDLF9F"] = true;
+	};
+	["affiliations"] = {
+		["jordy@example.com"] = "owner";
+	};
+};

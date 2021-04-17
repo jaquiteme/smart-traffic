@@ -1,0 +1,51 @@
+item({
+	{
+		"Attention! travaux sur la route A10";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/sujet";
+		};
+		["name"] = "message";
+	};
+	["attr"] = {
+		["stamp_legacy"] = "20210214T15:12:40";
+		["xmlns"] = "http://jabber.org/protocol/sujet";
+		["stamp"] = "2021-02-14T15:12:40Z";
+	};
+	["key"] = "ba12e9db-0652-4cb4-b314-29519da5cef5";
+	["name"] = "sujet";
+	["when"] = 1613315560;
+});
+item({
+	{
+		"Attention! travaux sur l\'avenue Danton";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/sujet";
+		};
+		["name"] = "message";
+	};
+	["attr"] = {
+		["stamp_legacy"] = "20210214T18:40:57";
+		["xmlns"] = "http://jabber.org/protocol/sujet";
+		["stamp"] = "2021-02-14T18:40:57Z";
+	};
+	["key"] = "b6abe11d-054d-4107-9dcf-1584fa873360";
+	["name"] = "sujet";
+	["when"] = 1613328057;
+});
+item({
+	{
+		"Attention! intervention des sapeurs pompier sur l\'avenue jean jaur\195\168s";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/sujet";
+		};
+		["name"] = "message";
+	};
+	["attr"] = {
+		["stamp_legacy"] = "20210214T19:58:04";
+		["xmlns"] = "http://jabber.org/protocol/sujet";
+		["stamp"] = "2021-02-14T19:58:04Z";
+	};
+	["key"] = "38f4f913-9a12-46bb-8093-ace1dcf519cd";
+	["name"] = "sujet";
+	["when"] = 1613332684;
+});

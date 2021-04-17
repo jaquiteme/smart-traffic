@@ -1,0 +1,3628 @@
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28054928577253";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.100833360995357";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-2";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27990205814634";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.0990792364860535";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28054928577253";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.100833360995357";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249491453";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249491;
+	["key"] = "9dd7e8c6-cfcc-4531-bc76-0619d13a8fbb";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:44:51Z";
+		["stamp_legacy"] = "20210412T17:44:51";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28054928577253";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.100833360995357";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-2";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27990205814634";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.0990792364860535";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28054928577253";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.100833360995357";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-2";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27980604713292";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.0988374509898495";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249492566";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249492;
+	["key"] = "eb88f69d-eacf-4f4f-bf14-63376b463549";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:44:52Z";
+		["stamp_legacy"] = "20210412T17:44:52";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28047032670964";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.100600090222921";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-2";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27972810533903";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098608485986558";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.280397110011094";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.100421836142098";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249494135";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249494;
+	["key"] = "f7086b8c-e40f-47ac-96f7-a77231f941e4";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:44:54Z";
+		["stamp_legacy"] = "20210412T17:44:54";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28047032670964";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.100600090222921";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-2";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27972810533903";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098608485986558";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.280397110011094";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.100421836142098";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-2";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27959345065241";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098241747593408";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249495011";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249495;
+	["key"] = "817dc21c-9f23-4a8d-8a30-c26290c13aeb";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:44:55Z";
+		["stamp_legacy"] = "20210412T17:44:55";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.2803511700663";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.100296398085221";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.2803511700663";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.100296398085221";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28029948757728";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.100164358025352";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249501510";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249501;
+	["key"] = "e8c64eff-b3b6-46a5-a984-9aca481933ef";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:01Z";
+		["stamp_legacy"] = "20210412T17:45:01";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249502911";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249502;
+	["key"] = "945dd583-7f56-4e2e-939f-8afa123d187f";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:02Z";
+		["stamp_legacy"] = "20210412T17:45:02";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28020760746301";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.099917883246929";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28020760746301";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.099917883246929";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28015879608269";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.099796846525383";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249504554";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249504;
+	["key"] = "a38b95db-c8c4-479f-b92e-573d3b4962cb";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:04Z";
+		["stamp_legacy"] = "20210412T17:45:04";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28020760746301";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.099917883246929";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28020760746301";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.099917883246929";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28015879608269";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.099796846525383";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28015879608269";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.099796846525383";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249505412";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249505;
+	["key"] = "b60c7027-2c3a-490e-a6b1-7962b58274bb";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:05Z";
+		["stamp_legacy"] = "20210412T17:45:05";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28010137086754";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.099642799788868";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28004681685119";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.0994755490463675";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27999082714006";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.0993369069835035";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249506858";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249506;
+	["key"] = "dca19ecb-c864-4507-8dcf-8f08dd102f7b";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:06Z";
+		["stamp_legacy"] = "20210412T17:45:06";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28010137086754";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.099642799788868";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.28004681685119";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.0994755490463675";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27999082714006";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.0993369069835035";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27993053045702";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.099185060914654";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249507708";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249507;
+	["key"] = "b2869e8b-41fa-4078-8d64-e8584b3fdaee";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:07Z";
+		["stamp_legacy"] = "20210412T17:45:07";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27988171880246";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.099044218184127";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27988171880246";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.099044218184127";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.279817115067736";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098883569444619";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249509264";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249509;
+	["key"] = "f825102b-6822-4d59-934f-a42e3c5d58d9";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:09Z";
+		["stamp_legacy"] = "20210412T17:45:09";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.279817115067736";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098883569444619";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27974963996556";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098681108019486";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27974963996556";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098681108019486";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249510644";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249510;
+	["key"] = "af79b261-e958-4578-b60d-244057cd9013";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:10Z";
+		["stamp_legacy"] = "20210412T17:45:10";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.279817115067736";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098883569444619";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27974963996556";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098681108019486";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27974963996556";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098681108019486";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.279689342987616";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.09851605794465";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249511442";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249511;
+	["key"] = "ffbc4119-d5a3-4af4-bea1-8c346da6c74c";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:11Z";
+		["stamp_legacy"] = "20210412T17:45:11";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.279689342987616";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.09851605794465";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27961468948422";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098322399190174";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27956444187023";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098185957794976";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249512825";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249512;
+	["key"] = "27193655-2c09-43cd-ba8b-b92d0c311145";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:12Z";
+		["stamp_legacy"] = "20210412T17:45:12";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.279689342987616";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.09851605794465";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27961468948422";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098322399190174";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27956444187023";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098185957794976";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27951706550158";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098058319070436";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249513660";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249513;
+	["key"] = "6e46be01-f71c-417f-bccd-aad6e3435829";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:13Z";
+		["stamp_legacy"] = "20210412T17:45:13";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27951706550158";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.098058319070436";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.2794553325893";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.097880064989612";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.2794553325893";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.097880064989612";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249515217";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249515;
+	["key"] = "340b632f-1e09-46b1-adfa-865161c3da4a";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:15Z";
+		["stamp_legacy"] = "20210412T17:45:15";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27937493612259";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.097677603564479";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27930746041541";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.097510352821978";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.279251469864924";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.097338700744147";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249516528";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249516;
+	["key"] = "b86104ed-58f3-41c6-b6bf-47c70f12e6a0";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:16Z";
+		["stamp_legacy"] = "20210412T17:45:16";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27937493612259";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.097677603564479";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27930746041541";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.097510352821978";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.279251469864924";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.097338700744147";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.2791926079356";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.097173650669311";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249517438";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249517;
+	["key"] = "bcad56ac-39c2-4bab-9e6a-66560db52d3e";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:17Z";
+		["stamp_legacy"] = "20210412T17:45:17";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27910503274";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.096942580564541";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27910503274";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.096942580564541";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.279051913283325";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.096806139169343";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249519042";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249519;
+	["key"] = "d6c2d5d2-9a2f-4cc8-8903-55552d94c07e";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:19Z";
+		["stamp_legacy"] = "20210412T17:45:19";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.279051913283325";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.096806139169343";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.278987308461566";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.096658694435821";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				"5";
+				["name"] = "cause-code";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			{
+				{
+					"49.27891121822965";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				{
+					"4.096449631007695";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/alert";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/alert";
+				};
+			};
+			["name"] = "denm";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/alert";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	{
+		"1618249520565";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/alert";
+		};
+	};
+	["name"] = "alert";
+	["when"] = 1618249520;
+	["key"] = "b7ee9110-563d-4e37-822f-d59f6471db62";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/alert";
+		["tag"] = "5";
+		["stamp"] = "2021-04-12T17:45:20Z";
+		["stamp_legacy"] = "20210412T17:45:20";
+	};
+});

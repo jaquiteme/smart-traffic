@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.jordy.backup.AppTest" time="0.389" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/jordy/tp_iot/backup_server/build/client/xmpp_client/target/test-classes:/home/jordy/tp_iot/backup_server/build/client/xmpp_client/target/classes:/home/jordy/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/jordy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/jordy/.m2/repository/org/igniterealtime/smack/smack-tcp/4.3.5/smack-tcp-4.3.5.jar:/home/jordy/.m2/repository/org/igniterealtime/smack/smack-core/4.3.5/smack-core-4.3.5.jar:/home/jordy/.m2/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar:/home/jordy/.m2/repository/org/jxmpp/jxmpp-core/0.6.4/jxmpp-core-0.6.4.jar:/home/jordy/.m2/repository/org/jxmpp/jxmpp-util-cache/0.6.4/jxmpp-util-cache-0.6.4.jar:/home/jordy/.m2/repository/org/jxmpp/jxmpp-jid/0.6.4/jxmpp-jid-0.6.4.jar:/home/jordy/.m2/repository/org/minidns/minidns-core/0.3.4/minidns-core-0.3.4.jar:/home/jordy/.m2/repository/org/igniterealtime/smack/smack-im/4.3.5/smack-im-4.3.5.jar:/home/jordy/.m2/repository/org/igniterealtime/smack/smack-extensions/4.3.5/smack-extensions-4.3.5.jar:/home/jordy/.m2/repository/org/igniterealtime/smack/smack-java7/4.3.5/smack-java7-4.3.5.jar:/home/jordy/.m2/repository/org/igniterealtime/smack/smack-resolver-javax/4.3.5/smack-resolver-javax-4.3.5.jar:/home/jordy/.m2/repository/org/igniterealtime/smack/smack-sasl-javax/4.3.5/smack-sasl-javax-4.3.5.jar:/home/jordy/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.1/jackson-databind-2.11.1.jar:/home/jordy/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.1/jackson-annotations-2.11.1.jar:/home/jordy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.1/jackson-core-2.11.1.jar:/home/jordy/.m2/repository/com/sun/xml/bind/jaxb-impl/3.0.0/jaxb-impl-3.0.0.jar:/home/jordy/.m2/repository/com/sun/xml/bind/jaxb-core/3.0.0/jaxb-core-3.0.0.jar:/home/jordy/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/3.0.0/jakarta.xml.bind-api-3.0.0.jar:/home/jordy/.m2/repository/com/sun/activation/jakarta.activation/2.0.0/jakarta.activation-2.0.0.jar:/home/jordy/.m2/repository/org/json/json/20201115/json-20201115.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/jordy/tp_iot/backup_server/build/client/xmpp_client/target/surefire/surefirebooter4606619139230649946.jar /home/jordy/tp_iot/backup_server/build/client/xmpp_client/target/surefire 2021-04-12T17-31-06_092-jvmRun1 surefire2232328739533723492tmp surefire_04692298962364681266tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/jordy/tp_iot/backup_server/build/client/xmpp_client/target/test-classes:/home/jordy/tp_iot/backup_server/build/client/xmpp_client/target/classes:/home/jordy/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/jordy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/jordy/.m2/repository/org/igniterealtime/smack/smack-tcp/4.3.5/smack-tcp-4.3.5.jar:/home/jordy/.m2/repository/org/igniterealtime/smack/smack-core/4.3.5/smack-core-4.3.5.jar:/home/jordy/.m2/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar:/home/jordy/.m2/repository/org/jxmpp/jxmpp-core/0.6.4/jxmpp-core-0.6.4.jar:/home/jordy/.m2/repository/org/jxmpp/jxmpp-util-cache/0.6.4/jxmpp-util-cache-0.6.4.jar:/home/jordy/.m2/repository/org/jxmpp/jxmpp-jid/0.6.4/jxmpp-jid-0.6.4.jar:/home/jordy/.m2/repository/org/minidns/minidns-core/0.3.4/minidns-core-0.3.4.jar:/home/jordy/.m2/repository/org/igniterealtime/smack/smack-im/4.3.5/smack-im-4.3.5.jar:/home/jordy/.m2/repository/org/igniterealtime/smack/smack-extensions/4.3.5/smack-extensions-4.3.5.jar:/home/jordy/.m2/repository/org/igniterealtime/smack/smack-java7/4.3.5/smack-java7-4.3.5.jar:/home/jordy/.m2/repository/org/igniterealtime/smack/smack-resolver-javax/4.3.5/smack-resolver-javax-4.3.5.jar:/home/jordy/.m2/repository/org/igniterealtime/smack/smack-sasl-javax/4.3.5/smack-sasl-javax-4.3.5.jar:/home/jordy/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.1/jackson-databind-2.11.1.jar:/home/jordy/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.1/jackson-annotations-2.11.1.jar:/home/jordy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.1/jackson-core-2.11.1.jar:/home/jordy/.m2/repository/com/sun/xml/bind/jaxb-impl/3.0.0/jaxb-impl-3.0.0.jar:/home/jordy/.m2/repository/com/sun/xml/bind/jaxb-core/3.0.0/jaxb-core-3.0.0.jar:/home/jordy/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/3.0.0/jakarta.xml.bind-api-3.0.0.jar:/home/jordy/.m2/repository/com/sun/activation/jakarta.activation/2.0.0/jakarta.activation-2.0.0.jar:/home/jordy/.m2/repository/org/json/json/20201115/json-20201115.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/jordy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/jordy/tp_iot/backup_server/build/client/xmpp_client"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/jordy/tp_iot/backup_server/build/client/xmpp_client/target/surefire/surefirebooter4606619139230649946.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+9-Ubuntu-0ubuntu1.20.04"/>
+    <property name="user.name" value="jordy"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-70-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/jordy/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="/home/jordy/tp_iot/backup_server/build/client/xmpp_client"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.10+9-Ubuntu-0ubuntu1.20.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.jordy.backup.AppTest" time="0.011"/>
+</testsuite>

@@ -1,0 +1,18 @@
+return {
+	["subscribers"] = {
+		["jordy@example.com"] = true;
+		["user1@example.com"] = true;
+	};
+	["affiliations"] = {
+		["jordy@example.com"] = "owner";
+	};
+	["name"] = "urgence";
+	["config"] = {
+		["access_model"] = "open";
+		["include_payload"] = true;
+		["persist_items"] = true;
+		["max_items"] = 20;
+		["notify_retract"] = true;
+		["publish_model"] = "open";
+	};
+};

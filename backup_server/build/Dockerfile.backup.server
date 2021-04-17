@@ -1,0 +1,12 @@
+FROM maven
+
+WORKDIR /projects
+#copie du dossier code
+COPY ./client /projects
+#RUN useradd -m docker && echo "docker:docker" | chpasswd && adduser docker sudo
+#USER docker
+RUN keytool -importcert -alias prosody.server -cacerts -file /projects/crt/example.com.crt -storepass changeit -noprompt
+RUN keytool -import -alias prosody.server.pubsub -cacerts -file /projects/crt/pubsub.example.com.crt -storepass changeit -noprompt
+RUN chmod +x /projects/entrypoint.sh
+RUN mvn -file  /projects/xmpp_client clean install
+ENTRYPOINT ["/projects/entrypoint.sh"]

@@ -1,0 +1,681 @@
+car:
+  stationId: FR-CAR-URG-1
+  stationType: 10
+scenarios:
+- name: normal
+  movements:
+  - event: /zone/in
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.282866319075254
+      longitude: 4.107265912578656
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.28281751032647
+      longitude: 4.107078855827175
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.28280746146041
+      longitude: 4.1070172371325695
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.28283904360395
+      longitude: 4.10686539106372
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.28282755919046
+      longitude: 4.1067113443272065
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.28280171925032
+      longitude: 4.106599110276317
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.28271415046368
+      longitude: 4.106500080231415
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.282656728224055
+      longitude: 4.106418655527829
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.282574901417064
+      longitude: 4.106368040171546
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.282574901417064
+      longitude: 4.106368040171546
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.28248158998028
+      longitude: 4.106172180749406
+  - event: /CAM
+    perform: null
+    speed: 85.0
+    heading: 0
+    position:
+      latitude: 49.28237966497829
+      longitude: 4.105936709309305
+  - event: /CAM
+    perform: null
+    speed: 85.0
+    heading: 0
+    position:
+      latitude: 49.282302144413165
+      longitude: 4.105710040539861
+  - event: /CAM
+    perform: null
+    speed: 85.0
+    heading: 0
+    position:
+      latitude: 49.28225620624302
+      longitude: 4.105578000479992
+  - event: /CAM
+    perform: null
+    speed: 85.0
+    heading: 0
+    position:
+      latitude: 49.282207396890364
+      longitude: 4.105408549069827
+  - event: /CAM
+    perform: null
+    speed: 85.0
+    heading: 0
+    position:
+      latitude: 49.282152845203726
+      longitude: 4.10524349899499
+  - event: /CAM
+    perform: null
+    speed: 85.0
+    heading: 0
+    position:
+      latitude: 49.28210403574873
+      longitude: 4.1050872515908114
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.28201933687398
+      longitude: 4.104851780150711
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.281941815742435
+      longitude: 4.104655920728573
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.28189444165762
+      longitude: 4.104508475995051
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.28183414730204
+      longitude: 4.104347827255544
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.28178390194937
+      longitude: 4.104202583189688
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.281729349794254
+      longitude: 4.104050737120839
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.28167623316418
+      longitude: 4.10390989439031
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.28161450295466
+      longitude: 4.103729439641823
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.28155707943457
+      longitude: 4.103559988231658
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.28148960671299
+      longitude: 4.103361928141853
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.28142356949187
+      longitude: 4.103172670722707
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.281324513494376
+      longitude: 4.102912991938298
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.28124555567269
+      longitude: 4.102699527174842
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.281175211325085
+      longitude: 4.102525674429348
+  - event: /CAM
+    perform: null
+    speed: 80.0
+    heading: 0
+    position:
+      latitude: 49.281113480488365
+      longitude: 4.10234521968086
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.28103882914078
+      longitude: 4.1021515609263846
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.280967048892265
+      longitude: 4.101962303507238
+  - event: /CAM
+    perform: null
+    speed: 60.0
+    heading: 0
+    position:
+      latitude: 49.28088378367315
+      longitude: 4.101733434070131
+  - event: /CAM
+    perform: null
+    speed: 60.0
+    heading: 0
+    position:
+      latitude: 49.28081631003035
+      longitude: 4.101539775315657
+  - event: /CAM
+    perform: null
+    speed: 60.0
+    heading: 0
+    position:
+      latitude: 49.280747400682884
+      longitude: 4.101346116561182
+  - event: /CAM
+    perform: null
+    speed: 60.0
+    heading: 0
+    position:
+      latitude: 49.28069858983684
+      longitude: 4.1012272805073
+  - event: /CAM
+    perform: null
+    speed: 50.0
+    heading: 0
+    position:
+      latitude: 49.280616759780656
+      longitude: 4.101049026426477
+  - event: /CAM
+    perform: null
+    speed: 50.0
+    heading: 0
+    position:
+      latitude: 49.28054928577253
+      longitude: 4.100833360995357
+  - event: /CAM
+    perform: null
+    speed: 50.0
+    heading: 0
+    position:
+      latitude: 49.28054928577253
+      longitude: 4.100833360995357
+  - event: /CAM
+    perform: null
+    speed: 50.0
+    heading: 0
+    position:
+      latitude: 49.28047032670964
+      longitude: 4.100600090222921
+  - event: /CAM
+    perform: null
+    speed: 50.0
+    heading: 0
+    position:
+      latitude: 49.280397110011094
+      longitude: 4.100421836142098
+  - event: /CAM
+    perform: null
+    speed: 50.0
+    heading: 0
+    position:
+      latitude: 49.2803511700663
+      longitude: 4.100296398085221
+  - event: /CAM
+    perform: null
+    speed: 50.0
+    heading: 0
+    position:
+      latitude: 49.2803511700663
+      longitude: 4.100296398085221
+  - event: /CAM
+    perform: null
+    speed: 40.0
+    heading: 0
+    position:
+      latitude: 49.28029948757728
+      longitude: 4.100164358025352
+  - event: /CAM
+    perform: null
+    speed: 40.0
+    heading: 0
+    position:
+      latitude: 49.280249240661
+      longitude: 4.100038919968476
+  - event: /CAM
+    perform: null
+    speed: 40.0
+    heading: 0
+    position:
+      latitude: 49.28020760746301
+      longitude: 4.099917883246929
+  - event: /CAM
+    perform: null
+    speed: 40.0
+    heading: 0
+    position:
+      latitude: 49.28020760746301
+      longitude: 4.099917883246929
+  - event: /CAM
+    perform: null
+    speed: 40.0
+    heading: 0
+    position:
+      latitude: 49.28015879608269
+      longitude: 4.099796846525383
+  - event: /CAM
+    perform: null
+    speed: 30.0
+    heading: 0
+    position:
+      latitude: 49.28015879608269
+      longitude: 4.099796846525383
+  - event: /CAM
+    perform:
+      causeCode: 0
+      subCauseCode: null
+      event: null
+    speed: 30.0
+    heading: 0
+    position:
+      latitude: 49.28010137086754
+      longitude: 4.099642799788868
+  - event: /CAM
+    perform: null
+    speed: 30.0
+    heading: 0
+    position:
+      latitude: 49.28004681685119
+      longitude: 4.0994755490463675
+  - event: /CAM
+    perform: null
+    speed: 40.0
+    heading: 0
+    position:
+      latitude: 49.27999082714006
+      longitude: 4.0993369069835035
+  - event: /CAM
+    perform: null
+    speed: 40.0
+    heading: 0
+    position:
+      latitude: 49.27993053045702
+      longitude: 4.099185060914654
+  - event: /CAM
+    perform: null
+    speed: 40.0
+    heading: 0
+    position:
+      latitude: 49.27988171880246
+      longitude: 4.099044218184127
+  - event: /CAM
+    perform: null
+    speed: 50.0
+    heading: 0
+    position:
+      latitude: 49.27988171880246
+      longitude: 4.099044218184127
+  - event: /CAM
+    perform: null
+    speed: 60.0
+    heading: 0
+    position:
+      latitude: 49.279817115067736
+      longitude: 4.098883569444619
+  - event: /CAM
+    perform: null
+    speed: 60.0
+    heading: 0
+    position:
+      latitude: 49.279817115067736
+      longitude: 4.098883569444619
+  - event: /CAM
+    perform: null
+    speed: 60.0
+    heading: 0
+    position:
+      latitude: 49.27974963996556
+      longitude: 4.098681108019486
+  - event: /CAM
+    perform: null
+    speed: 60.0
+    heading: 0
+    position:
+      latitude: 49.27974963996556
+      longitude: 4.098681108019486
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.279689342987616
+      longitude: 4.09851605794465
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.279689342987616
+      longitude: 4.09851605794465
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.27961468948422
+      longitude: 4.098322399190174
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.27956444187023
+      longitude: 4.098185957794976
+  - event: /CAM
+    perform: null
+    speed: 70.0
+    heading: 0
+    position:
+      latitude: 49.27951706550158
+      longitude: 4.098058319070436
+  - event: /CAM
+    perform: null
+    speed: 80.0
+    heading: 0
+    position:
+      latitude: 49.27951706550158
+      longitude: 4.098058319070436
+  - event: /CAM
+    perform: null
+    speed: 80.0
+    heading: 0
+    position:
+      latitude: 49.2794553325893
+      longitude: 4.097880064989612
+  - event: /CAM
+    perform: null
+    speed: 80.0
+    heading: 0
+    position:
+      latitude: 49.2794553325893
+      longitude: 4.097880064989612
+  - event: /CAM
+    perform: null
+    speed: 80.0
+    heading: 0
+    position:
+      latitude: 49.27937493612259
+      longitude: 4.097677603564479
+  - event: /CAM
+    perform: null
+    speed: 80.0
+    heading: 0
+    position:
+      latitude: 49.27930746041541
+      longitude: 4.097510352821978
+  - event: /CAM
+    perform: null
+    speed: 80.0
+    heading: 0
+    position:
+      latitude: 49.279251469864924
+      longitude: 4.097338700744147
+  - event: /CAM
+    perform: null
+    speed: 80.0
+    heading: 0
+    position:
+      latitude: 49.2791926079356
+      longitude: 4.097173650669311
+  - event: /CAM
+    perform: null
+    speed: 80.0
+    heading: 0
+    position:
+      latitude: 49.27910503274
+      longitude: 4.096942580564541
+  - event: /CAM
+    perform: null
+    speed: 80.0
+    heading: 0
+    position:
+      latitude: 49.27910503274
+      longitude: 4.096942580564541
+  - event: /CAM
+    perform: null
+    speed: 80.0
+    heading: 0
+    position:
+      latitude: 49.279051913283325
+      longitude: 4.096806139169343
+  - event: /CAM
+    perform: null
+    speed: 80.0
+    heading: 0
+    position:
+      latitude: 49.279051913283325
+      longitude: 4.096806139169343
+  - event: /CAM
+    perform: null
+    speed: 80.0
+    heading: 0
+    position:
+      latitude: 49.278987308461566
+      longitude: 4.096658694435821
+  - event: /CAM
+    perform: null
+    speed: 80.0
+    heading: 0
+    position:
+      latitude: 49.27891121822965
+      longitude: 4.096449631007695
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.278849484559
+      longitude: 4.096269176259208
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.27876765143462
+      longitude: 4.096029303483778
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.2787030462405
+      longitude: 4.095857651405949
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.2787030462405
+      longitude: 4.095857651405949
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.27862695557005
+      longitude: 4.095672795322133
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.27862695557005
+      longitude: 4.095672795322133
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.27856522154359
+      longitude: 4.095494541241309
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.27856522154359
+      longitude: 4.095494541241309
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.27851640853772
+      longitude: 4.095377905855091
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.27846472412591
+      longitude: 4.095232661789235
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.278418782381074
+      longitude: 4.095138033079662
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.27837284059342
+      longitude: 4.09501919702578
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.278336948542034
+      longitude: 4.094928969651535
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.27828526394217
+      longitude: 4.094790327588675
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.27824075771555
+      longitude: 4.09466048819647
+  - event: /CAM
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.27824075771555
+      longitude: 4.09466048819647
+  - event: /zone/out
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.27817328045664
+      longitude: 4.0945438528102525

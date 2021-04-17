@@ -1,0 +1,18 @@
+return {
+	["name"] = "denm_events";
+	["affiliations"] = {
+		["jordy@example.com"] = "owner";
+	};
+	["subscribers"] = {
+		["central01@example.com"] = true;
+		["backup01@example.com"] = true;
+		["jordy@example.com"] = true;
+		["user1@example.com"] = true;
+	};
+	["config"] = {
+		["publish_model"] = "publishers";
+		["max_items"] = 20;
+		["persist_items"] = false;
+		["access_model"] = "open";
+	};
+};

@@ -1,0 +1,85 @@
+item({
+	{
+		"un nouveau message";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/sujet";
+		};
+		["name"] = "message";
+	};
+	["when"] = 1612634409;
+	["name"] = "sujet";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/sujet";
+		["stamp"] = "2021-02-06T18:00:09Z";
+		["stamp_legacy"] = "20210206T18:00:09";
+	};
+	["key"] = "0cfa5f9b-4578-4d6a-b0ca-7b4a724c9981";
+});
+item({
+	{
+		"un nouveau message, modifi\195\169";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/sujet";
+		};
+		["name"] = "message";
+	};
+	["when"] = 1612695601;
+	["name"] = "sujet";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/sujet";
+		["stamp"] = "2021-02-07T11:00:01Z";
+		["stamp_legacy"] = "20210207T11:00:01";
+	};
+	["key"] = "8bec1c97-fc99-4d2a-94ed-2d6e4b16f2a3";
+});
+item({
+	{
+		"un nouveau message, push";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/sujet";
+		};
+		["name"] = "message";
+	};
+	["when"] = 1612696086;
+	["name"] = "sujet";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/sujet";
+		["stamp"] = "2021-02-07T11:08:06Z";
+		["stamp_legacy"] = "20210207T11:08:06";
+	};
+	["key"] = "7dfb015f-8716-4871-9a4b-54cfe8151ee5";
+});
+item({
+	{
+		"un nouveau message, publish";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/sujet";
+		};
+		["name"] = "message";
+	};
+	["when"] = 1612696354;
+	["name"] = "sujet";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/sujet";
+		["stamp"] = "2021-02-07T11:12:34Z";
+		["stamp_legacy"] = "20210207T11:12:34";
+	};
+	["key"] = "e617b7ef-3fae-499d-9e0e-301c412e10cb";
+});
+item({
+	{
+		"un nouveau message, publish mod";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/sujet";
+		};
+		["name"] = "message";
+	};
+	["when"] = 1612696513;
+	["name"] = "sujet";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/sujet";
+		["stamp"] = "2021-02-07T11:15:13Z";
+		["stamp_legacy"] = "20210207T11:15:13";
+	};
+	["key"] = "cbf0c375-2cf6-491a-8430-7c8e5500337f";
+});

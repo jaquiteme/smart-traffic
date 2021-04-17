@@ -1,0 +1,162 @@
+version: "3"
+services:
+  ## 10.5.0.2 - 10.5.0.7
+  event_centralizer:
+    container_name: xmpp_server
+    image: prosody/prosody
+    restart: always
+    environment:
+      LOCAL: admin
+      DOMAIN: example.com
+      PASSWORD: "P@ssw0rd01"
+    ports:
+      - 5222:5222
+      - 5269:5269
+      - 5347:5347
+      - 80:80
+      - 5280:5280
+      - 5281:5281
+    volumes:
+      - ./prosody/config:/etc/prosody:ro
+      - ./prosody/log:/var/log/prosody
+      - ./prosody/data:/var/lib/prosody
+    networks:
+      iot-network:
+        ipv4_address: 10.5.0.2
+
+  # 10.5.0.8 - 10.5.0.13
+  gateway:
+    container_name: mqtt_broker
+    image: eclipse-mosquitto
+    restart: always
+    ports:
+      - 1883:1883
+      - 8883:8883
+      - 9001:9001
+    volumes:
+      - ./mosquito/config/mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - ./mosquito/config/certs:/mosquitto/config/certs
+      - ./mosquito/data:/mosquitto/data
+      - ./mosquito/log:/mosquitto/log
+    networks:
+      iot-network:
+        ipv4_address: 10.5.0.8
+
+  gateway_java:
+    container_name: broker_xmpp_agent
+    build:
+      context: ./gateway/build
+      dockerfile: Dockerfile.gateway
+    #restart: always
+    depends_on:
+      - gateway
+      - backup_sever_java_xmpp
+    networks:
+      iot-network:
+        ipv4_address: 10.5.0.9
+  # java:
+  #   container_name: java_docker
+  #   build:
+  #     context: ./java/build
+  #     dockerfile: Dockerfile.java
+  #   networks:
+  #     iot-network:
+  #       ipv4_address: 10.5.0.3
+
+  ## 10.5.0.14 - 10.5.0.19
+  apache2:
+    container_name: apache2_docker
+    build:
+      context: ./apache2/build
+      dockerfile: Dockerfile.apache
+    ports:
+      - 8083:80
+      - 50443:443
+    volumes:
+      - ./apache2/build/data:/usr/local/apache2/htdocs
+      - ./apache2/build/conf/my-httpd.conf:/usr/local/apache2/conf/httpd.conf
+    networks:
+      iot-network:
+        ipv4_address: 10.5.0.14
+
+  ## 10.5.0.20 - 10.5.0.25
+  mongo_backup_database:
+    container_name: backup_database
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongodb/data:/data/db
+    networks:
+      iot-network:
+        ipv4_address: 10.5.0.20
+
+  node_backup_sever_api:
+    container_name: "backup_server_api"
+    build:
+      context: ./backup_server/build
+      dockerfile: Dockerfile.node.backup.api
+    restart: always
+    ports:
+      - 8084:8080
+    volumes:
+      - ./backup_server/data/server:/data/server
+    networks:
+      iot-network:
+        ipv4_address: 10.5.0.21
+  #Client xmpp java | 
+  backup_sever_java_xmpp:
+    container_name: backup_sever_xmpp_agent
+    build:
+      context: ./backup_server/build
+      dockerfile: Dockerfile.backup.server
+    #restart: always
+    depends_on:
+      - gateway
+    networks:
+      iot-network:
+        ipv4_address: 10.5.0.22
+
+  ## 10.5.0.26 ->
+  # dns_server:
+  #   container_name: "auth_dns_server"
+  #   image: internetsystemsconsortium/bind9:9.16
+  #   restart: always
+  #   ports:
+  #     - 53:53/udp
+  #     - 53:53/tcp
+  #   volumes:
+  #     - ./dns/authorative/config:/etc/bind
+  #     - ./dns/authorative/cache:/var/cache/bind
+  #     - ./dns/authorative/lib:/var/lib/bind
+  #     - ./dns/authorative/log:/var/log
+  #   networks:
+  #     iot-network:
+  #       ipv4_address: 10.5.0.26
+  ## 10.5.0.27 ->
+  # car:
+  #   container_name: client_car
+  #   depends_on:
+  #     - gateway
+  #   build:
+  #     context: ./car/build
+  #     dockerfile: Dockerfile.car
+  #   volumes:
+  #     - ./car/data:/data
+  # dns:
+  #   container_name: dns_server
+  #   build:
+  #     context: ./dns/build
+  #     dockerfile: Dockerfile.dns
+
+networks:
+  iot-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.5.0.0/16
+          gateway: 10.5.0.1

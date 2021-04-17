@@ -1,0 +1,15 @@
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/xmpp/models/Alert.java
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/xmpp/nodes/CustomNode.java
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/xmpp/runnables/DataStore.java
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/xmpp/models/DenmMessage.java
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/events/DistributedEvent.java
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/events/DistributedMessageListener.java
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/xmpp/nodes/CustomNodeConfig.java
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/xmpp/models/Payload.java
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/xmpp/runnables/XmppSubscriber.java
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/App.java
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/events/DistributedQueue.java
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/xmpp/models/Position.java
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/events/DistributedDataStoreQueue.java
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/xmpp/models/CamMessage.java
+/home/jordy/tp_iot/backup_server/build/client/xmpp_client/src/main/java/com/jordy/backup/xmpp/models/RoadMessage.java

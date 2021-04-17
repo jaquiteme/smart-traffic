@@ -1,0 +1,1700 @@
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"80.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.279051913283325";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.096806139169343";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249519453";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249519;
+	["key"] = "cef61267-637f-4188-bbec-4dd831e012eb";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:19Z";
+		["stamp_legacy"] = "20210412T17:45:19";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"80.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.279051913283325";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.096806139169343";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249519882";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249519;
+	["key"] = "0c9a188a-e55e-4e3f-af79-0a39eb2f49c1";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:19Z";
+		["stamp_legacy"] = "20210412T17:45:19";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"80.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.278987308461566";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.096658694435821";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249520235";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249520;
+	["key"] = "56ff212b-1d1a-4a9e-a456-30656e8f6171";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:20Z";
+		["stamp_legacy"] = "20210412T17:45:20";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"80.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.27891121822965";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.096449631007695";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249520970";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249520;
+	["key"] = "55792039-5b37-4cdb-bd76-f23a1ef7d0fd";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:20Z";
+		["stamp_legacy"] = "20210412T17:45:20";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.278849484559";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.096269176259208";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249521284";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249521;
+	["key"] = "79dcec04-cfdc-4d4f-a5d9-800cb1ecf30b";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:21Z";
+		["stamp_legacy"] = "20210412T17:45:21";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.27876765143462";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.096029303483778";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249521939";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249521;
+	["key"] = "57544c95-7001-4ec9-8a8f-42d93af95000";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:21Z";
+		["stamp_legacy"] = "20210412T17:45:21";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.2787030462405";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.095857651405949";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249522678";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249522;
+	["key"] = "73bf584a-8840-4151-b3f4-6831a9f211b6";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:22Z";
+		["stamp_legacy"] = "20210412T17:45:22";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.2787030462405";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.095857651405949";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249523178";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249523;
+	["key"] = "7aad32ae-53d5-4880-bc96-91b4c7e63e04";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:23Z";
+		["stamp_legacy"] = "20210412T17:45:23";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.27862695557005";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.095672795322133";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249523501";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249523;
+	["key"] = "1ea6b8b5-c2c8-41e0-9e16-9a89de2d18a2";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:23Z";
+		["stamp_legacy"] = "20210412T17:45:23";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.27862695557005";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.095672795322133";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249523902";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249523;
+	["key"] = "a17042a5-df86-49c7-a53f-5bc37204b905";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:23Z";
+		["stamp_legacy"] = "20210412T17:45:23";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.27856522154359";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.095494541241309";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249524262";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249524;
+	["key"] = "3bc186d8-52c6-479a-bb3c-078daa98f61a";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:24Z";
+		["stamp_legacy"] = "20210412T17:45:24";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.27856522154359";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.095494541241309";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249524715";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249524;
+	["key"] = "5a206831-0a8e-4bc8-b8eb-55a36c472051";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:24Z";
+		["stamp_legacy"] = "20210412T17:45:24";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.27851640853772";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.095377905855091";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249525142";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249525;
+	["key"] = "343dda03-1738-480c-af8d-d494e47ccc65";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:25Z";
+		["stamp_legacy"] = "20210412T17:45:25";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.27846472412591";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.095232661789235";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249525512";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249525;
+	["key"] = "af303568-7e25-4b77-a5a0-466f608b9ffd";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:25Z";
+		["stamp_legacy"] = "20210412T17:45:25";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.278418782381074";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.095138033079662";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249525852";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249525;
+	["key"] = "ef1f7847-5c2d-45ac-a085-24a8b42df066";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:25Z";
+		["stamp_legacy"] = "20210412T17:45:25";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.27837284059342";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.09501919702578";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249526207";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249526;
+	["key"] = "032d9828-4606-44c1-8c99-ea764fedae1d";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:26Z";
+		["stamp_legacy"] = "20210412T17:45:26";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.278336948542034";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.094928969651535";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249526552";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249526;
+	["key"] = "0b21b29a-9f02-4174-b84e-4a3fc94b92d5";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:26Z";
+		["stamp_legacy"] = "20210412T17:45:26";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.27828526394217";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.094790327588675";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249526912";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249526;
+	["key"] = "7d4d6d35-f3fb-474b-bb65-74dfa4ce0846";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:26Z";
+		["stamp_legacy"] = "20210412T17:45:26";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.27824075771555";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.09466048819647";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249527699";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249527;
+	["key"] = "21c25260-672b-4ce5-bb67-50baaacc0262";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:27Z";
+		["stamp_legacy"] = "20210412T17:45:27";
+	};
+});
+item({
+	{
+		"FR51100-JAURES-GW-001";
+		["name"] = "gateway-id";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		{
+			{
+				"FR-CAR-URG-1";
+				["name"] = "station-id";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"10";
+				["name"] = "station-type";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"90.0";
+				["name"] = "speed";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				"0.0";
+				["name"] = "heading";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			{
+				{
+					"49.27824075771555";
+					["name"] = "latitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				{
+					"4.09466048819647";
+					["name"] = "longitude";
+					["attr"] = {
+						["xmlns"] = "http://jabber.org/protocol/road-message";
+					};
+				};
+				["name"] = "position";
+				["attr"] = {
+					["xmlns"] = "http://jabber.org/protocol/road-message";
+				};
+			};
+			["name"] = "cam";
+			["attr"] = {
+				["xmlns"] = "http://jabber.org/protocol/road-message";
+			};
+		};
+		["name"] = "content";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	{
+		"1618249528019";
+		["name"] = "created_at";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/road-message";
+		};
+	};
+	["name"] = "road-message";
+	["when"] = 1618249528;
+	["key"] = "aac53f4b-c6cb-445a-90a2-4eb2e66b3e46";
+	["attr"] = {
+		["xmlns"] = "http://jabber.org/protocol/road-message";
+		["tag"] = "0";
+		["stamp"] = "2021-04-12T17:45:28Z";
+		["stamp_legacy"] = "20210412T17:45:28";
+	};
+});

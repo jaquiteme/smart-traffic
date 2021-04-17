@@ -1,0 +1,49 @@
+version: "3"
+services:
+  simulator_1:
+    container_name: "simulator-car-1"
+    environment: 
+      CONF_FILE: "FR-CAR-1.config.yml"
+      WAITING: 0
+    build:
+      context: ./build
+      dockerfile: Dockerfile.car
+    image: car_simulator
+    volumes:
+      - ./data/code:/code
+    networks:
+      default:
+          ipv4_address: 10.5.0.27
+
+  simulator_2:
+    container_name: "simulator-car-2"
+    environment: 
+      CONF_FILE: "FR-CAR-2.config.yml"
+      WAITING: 0
+    image: car_simulator:latest
+    depends_on: 
+      - simulator_1
+    volumes:
+      - ./data/code:/code
+    networks:
+      default:
+          ipv4_address: 10.5.0.28
+    
+  simulator_3:
+    container_name: "simulator-car-3"
+    environment: 
+      CONF_FILE: "FR-CAR-URG-1.config.yml"
+      WAITING: 0
+    image: car_simulator:latest
+    depends_on: 
+      - simulator_2
+    volumes:
+      - ./data/code:/code
+    networks:
+      default:
+          ipv4_address: 10.5.0.29
+    
+networks:
+  default:
+    external:
+      name: tp_iot_iot-network
