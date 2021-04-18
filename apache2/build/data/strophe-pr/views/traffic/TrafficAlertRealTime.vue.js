@@ -1,43 +1,37 @@
 var TrafficAlertRealTime = {
   template: ` 
   <div id="viewport-sub">
-  <div class="container-alert-card">
-     <div class="alert-card-list-header">
-         <p> Alertes </p>
-     </div>
-       <div class="card-items">
-         <alert-card
-           v-for="alert in alerts"
-           :key="alert._id"
-           :link="generateAlertUrl(alert._id)"
-           :gateway="alert['gateway-id']"
-           :tag="alert.tag"
-           :time="alert.created_at"
-           :real_time="real_time"
-         >
-         </alert-card>
-       </div>
-   </div>
-   <div class="container-alert-detail">
-     <div class="alert-card-list-header">
-       <p>
-         {{ alert_detail != null ? alert_detail["gateway-id"] : "" }}
-       </p>
-     </div>
-     <div class="card-items">
-          <alert-card-detail
-             :alert="alert_detail"
-           >
-           </alert-card-detail>
-     </div>
-   </div>
+    <h5 style="margin-top: 3vw;padding: 1vw 2vw;"> Alertes temps réel </h5>
+    <div style="display: flex; flex-direction: row; height: 80%">
+        <div class="container-alert-card">
+          <div class="alert-card-list-header">
+              <p> Alertes Temps:<b> 02:00 <b/></p>
+          </div>
+            <div class="card-items">
+              <alert-card
+                v-for="alert in alerts"
+                :key="alert._id"
+                :link="generateAlertUrl(alert._id)"
+                :gateway="alert['gateway-id']"
+                :tag="alert.tag"
+                :time="alert.created_at"
+                :real_time="real_time"
+              >
+              </alert-card>
+            </div>
+        </div>
+        <div class="container-alert-detail">
+          <div class="card-items">
+                <alert-card-detail
+                  :alert="alert_detail"
+                >
+                </alert-card-detail>
+          </div>
+        </div>
+    </div>
  </div>
   `,
   mounted() {
-    // var toastElList = [].slice.call(document.querySelectorAll('.toast'))
-    // var toastList = toastElList.map(function (toastEl) {
-    //   return new bootstrap.Toast(toastEl)
-    // })
     this.subscribeToAlerts()
   },
   data() {
@@ -68,22 +62,6 @@ var TrafficAlertRealTime = {
     },*/
   },
   methods: {
-   /* on_success: function (message) {
-      console.log(message)
-      let xmlDoc = new DOMParser().parseFromString(message.innerHTML, 'application/xml');
-      let numberOfItem = xmlDoc.getElementsByTagName('item').length
-      for (let i = 0; i < numberOfItem; i++) {
-        let tag = xmlDoc.getElementsByTagName('item')[i].getElementsByTagName('alert')[0].getAttribute('type')
-        let gateway = xmlDoc.getElementsByTagName('item')[i].getElementsByTagName('alert')[0].getAttribute('gateway-id')
-        let content = xmlDoc.getElementsByTagName('item')[i].getElementsByTagName('alert')[0].getElementsByTagName('content')[0].innerHTML
-        let created_at = xmlDoc.getElementsByTagName('item')[i].getElementsByTagName('alert')[0].getElementsByTagName('created_at')[0].innerHTML
-
-        //let formatedDateCreatedAt = moment(parseInt(created_at)).format('DD/MM/YYYY HH:mm:ss')
-
-        this.alerts.unshift({ tag: tag, gateway: gateway, content: content, created_at: created_at })
-      }
-      return true
-    },*/
     subscribeToAlerts: async function () {
       await store.state.connection.pubsub.subscribe(
         "central01@example.com",

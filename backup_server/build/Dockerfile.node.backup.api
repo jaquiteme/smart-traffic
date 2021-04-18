@@ -1,11 +1,6 @@
 FROM node:current-alpine3.13
-
 WORKDIR /data/server
-
-# COPY ./tmc/tmc-iot-web/ /data/tmc/tmc-iot-web
-# RUN yarn install 
-
-ENTRYPOINT ["tail", "-f", "/dev/null"]
-# # CMD ["/dev/null"]
-
+COPY ./server/package.json /data/server/package.json
+RUN npm install -g
+CMD ["nodemon","index.js"]
 EXPOSE 8080

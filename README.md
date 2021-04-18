@@ -12,6 +12,7 @@ qui jouent une grande importance dans le monde l'**IoT**.
 
 ## Fonctionement
 [TODO]
+![](images/fonctionement_smart_traffic.jpg?raw=true)
 ## Installation
 [TODO]
 ## Usage

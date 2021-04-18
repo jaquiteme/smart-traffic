@@ -3,16 +3,16 @@ return {
 		["jordy@example.com"] = "owner";
 	};
 	["config"] = {
-		["publish_model"] = "publishers";
 		["persist_items"] = false;
-		["access_model"] = "open";
+		["publish_model"] = "publishers";
 		["max_items"] = 20;
-	};
-	["subscribers"] = {
-		["jordy@example.com"] = true;
-		["user1@example.com"] = true;
-		["backup01@example.com"] = true;
-		["central01@example.com"] = true;
+		["access_model"] = "open";
 	};
 	["name"] = "denm_events";
+	["subscribers"] = {
+		["user1@example.com"] = true;
+		["jordy@example.com"] = true;
+		["central01@example.com"] = true;
+		["backup01@example.com"] = true;
+	};
 };
