@@ -13,7 +13,25 @@ qui jouent une grande importance dans le monde l'**IoT**.
 ## Fonctionement
 [TODO]
 ![](images/fonctionement_smart_traffic.jpg?raw=true)
+
 ## Installation
-[TODO]
+
+1. Cloner le projet
+
+```git clone https://github.com/jordy-aquiteme/smart-traffic```
+2. Domaine 
+
+Ajouter les lignes suivantes dans votre fichier `/etc/hosts`:
+* 10.5.0.2 example.com
+* 10.5.0.2 pubsub.example.com
+
+3. Volumes
+
+Créé un volume pour mongoDB en exécutant la commande suivante: 
+
+```docker volume create mongo-db```
+
+:warning: Assurer vous d'être connecté à internet.
+
 ## Usage
 [TODO]
