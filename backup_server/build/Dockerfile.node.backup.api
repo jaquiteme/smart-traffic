@@ -1,6 +1,6 @@
 FROM node:current-alpine3.13
 WORKDIR /data/server
-COPY ./server/package.json /data/server/package.json
-RUN npm install -g
-CMD ["nodemon","index.js"]
+COPY ./server /data/server
+RUN npm install
+CMD ["node","index.js"]
 EXPOSE 8080

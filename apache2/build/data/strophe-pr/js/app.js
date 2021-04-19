@@ -1,12 +1,9 @@
-
-const Foo = { template: '<div>foo</div>' }
-const Bar = { template: '<div>bar</div>' }
-
 Vue.component("Home", Home);
 Vue.component("Traffic", Traffic);
 Vue.component("TrafficAlertRealTime", TrafficAlertRealTime);
 Vue.component("TrafficAlertHistory", TrafficAlertHistory);
 Vue.component("Dashboard", Dashboard);
+Vue.component("Data", Data);
 
 Vue.use(VueMapboxGl);
 
@@ -21,8 +18,7 @@ const routes = [
       { path: '/traffic/alerts/history/:id', component: TrafficAlertHistory }
     ]
   },
-  { path: '/foo', component: Foo },
-  { path: '/bar', component: Bar }
+  { path: '/data', component: Data },
 ]
 
 const router = new VueRouter({

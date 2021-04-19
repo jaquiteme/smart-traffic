@@ -82,7 +82,7 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - ./mongodb/data:/data/db
+      - mongo-db:/data/db
     networks:
       iot-network:
         ipv4_address: 10.5.0.20
@@ -114,36 +114,6 @@ services:
         ipv4_address: 10.5.0.22
 
   ## 10.5.0.26 ->
-  # dns_server:
-  #   container_name: "auth_dns_server"
-  #   image: internetsystemsconsortium/bind9:9.16
-  #   restart: always
-  #   ports:
-  #     - 53:53/udp
-  #     - 53:53/tcp
-  #   volumes:
-  #     - ./dns/authorative/config:/etc/bind
-  #     - ./dns/authorative/cache:/var/cache/bind
-  #     - ./dns/authorative/lib:/var/lib/bind
-  #     - ./dns/authorative/log:/var/log
-  #   networks:
-  #     iot-network:
-  #       ipv4_address: 10.5.0.26
-  ## 10.5.0.27 ->
-  # car:
-  #   container_name: client_car
-  #   depends_on:
-  #     - gateway
-  #   build:
-  #     context: ./car/build
-  #     dockerfile: Dockerfile.car
-  #   volumes:
-  #     - ./car/data:/data
-  # dns:
-  #   container_name: dns_server
-  #   build:
-  #     context: ./dns/build
-  #     dockerfile: Dockerfile.dns
 
 networks:
   iot-network:
@@ -152,3 +122,5 @@ networks:
       config:
         - subnet: 10.5.0.0/16
           gateway: 10.5.0.1
+volumes: 
+  mongo-db:

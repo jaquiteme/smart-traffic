@@ -1,16 +1,16 @@
 return {
-	["affiliations"] = {
-		["jordy@example.com"] = "owner";
-	};
 	["config"] = {
-		["persist_items"] = false;
-		["publish_model"] = "publishers";
 		["max_items"] = 20;
 		["access_model"] = "open";
+		["persist_items"] = false;
+		["publish_model"] = "publishers";
 	};
 	["name"] = "cam_events";
 	["subscribers"] = {
-		["user1@example.com"] = true;
 		["backup01@example.com"] = true;
+		["user1@example.com"] = true;
+	};
+	["affiliations"] = {
+		["jordy@example.com"] = "owner";
 	};
 };

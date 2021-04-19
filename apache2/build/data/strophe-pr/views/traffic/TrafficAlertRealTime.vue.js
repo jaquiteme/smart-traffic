@@ -5,7 +5,7 @@ var TrafficAlertRealTime = {
     <div style="display: flex; flex-direction: row; height: 80%">
         <div class="container-alert-card">
           <div class="alert-card-list-header">
-              <p> Alertes Temps:<b> 02:00 <b/></p>
+              <p> Alertes Temps:<b> {{ realtime }} <b/></p>
           </div>
             <div class="card-items">
               <alert-card
@@ -33,11 +33,19 @@ var TrafficAlertRealTime = {
   `,
   mounted() {
     this.subscribeToAlerts()
+    this.displayTime()
+  },
+  beforeDestroyed() {
+    clearInterval(this.interval);
   },
   data() {
     return {
       alerts: [],
       alert_detail: null,
+      minutes: 0,
+      seconds: 0,
+      interval: null,
+      realtime: null,
       real_time: true
     }
   },
@@ -48,6 +56,9 @@ var TrafficAlertRealTime = {
     alert: function (val) {
       this.alert = val
       console.log(val)
+    },
+    realtime: function (val) {
+      this.currentTime = val
     },
     $route(to, from) {
       this.alert_detail = this.getOneAlert(to.query.id)[0]
@@ -119,7 +130,24 @@ var TrafficAlertRealTime = {
     },
     generateAlertUrl: function (id) {
       return { path: this.$router.currentRoute.path, query: { id: id } }
+    },
+    getRealtime: function () {
+      if (this.seconds < 59)
+        this.seconds++
+      else {
+        this.minutes++
+        this.seconds = 0
+      }
+      this.realtime = this.setTime(this.minutes) + ":" + this.setTime(this.seconds)
+    },
+    setTime: function (time) {
+      if (time < 10)
+        return "0" + time
+      else
+        return time
+    },
+    displayTime: function () {
+      this.interval = setInterval(() => this.getRealtime(), 1000);
     }
-
   },
 }

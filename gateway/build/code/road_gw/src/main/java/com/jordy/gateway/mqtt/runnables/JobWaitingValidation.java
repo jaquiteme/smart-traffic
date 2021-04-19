@@ -20,7 +20,7 @@ import com.jordy.gateway.mqtt.models.Position;
 import com.jordy.gateway.xmpp.models.Alert;
 
 public class JobWaitingValidation implements Runnable {
-    private int DEFAULT_IDLE_TIME = 20;
+    private int DEFAULT_IDLE_TIME = 60;
     private int idleTime;
     private JobQueue queue;
     private int tag;
