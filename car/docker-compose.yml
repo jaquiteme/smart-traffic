@@ -46,4 +46,4 @@ services:
 networks:
   default:
     external:
-      name: tp_iot_iot-network
+      name: smart-traffic_iot-network
