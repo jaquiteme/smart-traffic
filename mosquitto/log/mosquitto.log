@@ -288,3 +288,32 @@
 1618745847: Opening ipv4 listen socket on port 1883.
 1618745847: Opening ipv6 listen socket on port 1883.
 1618745847: mosquitto version 2.0.7 running
+1618853605: mosquitto version 2.0.7 starting
+1618853605: Config loaded from /mosquitto/config/mosquitto.conf.
+1618853605: Opening ipv4 listen socket on port 1883.
+1618853605: Opening ipv6 listen socket on port 1883.
+1618853605: mosquitto version 2.0.7 running
+1618853666: New connection from 10.5.0.9:36012 on port 1883.
+1618853666: New client connected from 10.5.0.9:36012 as FR51100-JAURES-GW-001 (p2, c1, k60).
+1618853789: Client FR51100-JAURES-GW-001 closed its connection.
+1618853792: mosquitto version 2.0.7 terminating
+1618853792: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1618853828: mosquitto version 2.0.7 starting
+1618853828: Config loaded from /mosquitto/config/mosquitto.conf.
+1618853828: Opening ipv4 listen socket on port 1883.
+1618853828: Opening ipv6 listen socket on port 1883.
+1618853828: mosquitto version 2.0.7 running
+1618853857: New connection from 10.5.0.9:36032 on port 1883.
+1618853858: New client connected from 10.5.0.9:36032 as FR51100-JAURES-GW-001 (p2, c1, k60).
+1618853966: New connection from 10.5.0.27:49489 on port 1883.
+1618853966: New client connected from 10.5.0.27:49489 as FR-CAR-1 (p2, c1, k60).
+1618853979: New connection from 10.5.0.28:57177 on port 1883.
+1618853979: New client connected from 10.5.0.28:57177 as FR-CAR-2 (p2, c1, k60).
+1618853990: New connection from 10.5.0.29:57415 on port 1883.
+1618853990: New client connected from 10.5.0.29:57415 as FR-CAR-URG-1 (p2, c1, k60).
+1618853994: Client FR-CAR-1 closed its connection.
+1618854011: Client FR-CAR-2 closed its connection.
+1618854056: Client FR-CAR-URG-1 closed its connection.
+1618854170: Client FR51100-JAURES-GW-001 closed its connection.
+1618854172: mosquitto version 2.0.7 terminating
+1618854172: Saving in-memory database to /mosquitto/data//mosquitto.db.
