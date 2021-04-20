@@ -57,16 +57,16 @@ qui jouent une grande importance dans le monde l'**IoT**.
           car:
             stationId: FR-CAR-1
             stationType: 5
-          scenarios:
-          - name: normal
-            movements:
-            - event: /zone/in
-              perform: null
-              speed: 90.0
-              heading: 0
-              position:
-                latitude: 49.282851
-                longitude: 4.107277
+            scenarios:
+            - name: normal
+              movements:
+              - event: /zone/in
+                perform: null
+                speed: 90.0
+                heading: 0
+                position:
+                  latitude: 49.282851
+                  longitude: 4.107277
           ```
           Ce fichier peut être construit de deux manière :
 
@@ -98,7 +98,7 @@ qui jouent une grande importance dans le monde l'**IoT**.
 
                 * ***perform*** : pour indiquer qu'à cette étape nous souhaitons envoyer un message de type DENM.  
 
-                Ensuite il faudra indiquer le code de l'évèvenemt 
+                Ensuite il faudra indiquer le code de l'évèvenement 
                 * ***causeCode*** :
                     * Accident : 4
                     * Embouteillage : 5
