@@ -94,18 +94,18 @@ latitude | longitude | speed | event | perform | causeCode
 49.28281751032647 | 4.107078855827175 | 90 | 3 | n | |
 49.28010093750807 | 4.099604857129973 | 30 | 3 | o | 4
 
-* ***event*** : 
-  * Entrée dans une zone : 1
-  * Sortie d'une zone : 2
-  * Message normal : 3
+  * ***event*** : 
+    * Entrée dans une zone : 1
+    * Sortie d'une zone : 2
+    * Message normal : 3
 
-***perform*** : pour indiquer qu'à cette étape nous souhaitons envoyer un message de type DENM.  
+  * ***perform*** : pour indiquer qu'à cette étape nous souhaitons envoyer un message de type DENM.  
 
-Ensuite il faudra indiquer le code de l'évèvenemt 
-* ***causeCode***.  
-  * Accident : 4
-  * Embouteillage : 5
-  * etc.
+  Ensuite il faudra indiquer le code de l'évèvenemt 
+  * ***causeCode***.  
+    * Accident : 4
+    * Embouteillage : 5
+    * etc.
 
 - Un programme d'exécution.
 
