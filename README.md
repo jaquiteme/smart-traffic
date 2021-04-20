@@ -1,6 +1,6 @@
 # SMART TRAFFIC
 
-1. ## Description 
+## Description 
 Le contexte de ce projet se situe dans la découverte et l'utilisation des protocoles de communication à faible coût suivant : 
 * XMPP
 * MQTT 
@@ -10,11 +10,11 @@ qui jouent une grande importance dans le monde l'**IoT**.
 
 ![](images/archi_smart_traffic.png?raw=true)
 
-1. ## Fonctionement
+## Fonctionement
 [TODO]
 ![](images/fonctionement_smart_traffic.jpg?raw=true)
 
-1. ## Installation
+## Installation
 
   1. ### **Clone du projet**
 
@@ -32,8 +32,7 @@ qui jouent une grande importance dans le monde l'**IoT**.
 
   https://docs.docker.com/compose/install/
 
-1. ## Usage
-
+## Usage
   1. ### **Démarrage**
 
       1. Serveurs et passerelles
