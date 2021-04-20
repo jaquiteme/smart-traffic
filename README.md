@@ -108,4 +108,4 @@ qui jouent une grande importance dans le monde l'**IoT**.
 
         * Un programme d'exécution ```car/data/code/car.py```.
 
-PS: les différents packets envoyées peuvent être visualisés dans les logs ```docker-compose``` correspondants.
+PS: les différents packets envoyés peuvent être visualisés dans les logs ```docker-compose``` correspondants.
