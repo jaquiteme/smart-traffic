@@ -22,15 +22,13 @@ qui jouent une grande importance dans le monde l'**IoT**.
 
 2. ### **Nom de Domaine**
 
-Ajouter les lignes suivantes dans votre fichier `/etc/hosts`:
+Ajoutez les lignes suivantes dans votre fichier `/etc/hosts`:
 * 10.5.0.2 example.com
 * 10.5.0.2 pubsub.example.com
 
-```docker volume create mongo-db```
+:warning: Assurez vous d'être connecté à Internet.
 
-:warning: Assuré vous d'être connecté à Internet.
-
-3. ### **Intaller Docker Compose**
+3. ### **Installation de Docker Compose**
 
 https://docs.docker.com/compose/install/
 
@@ -42,7 +40,7 @@ https://docs.docker.com/compose/install/
 
 * Serveurs et passerelles
 
-Dans une console, taper la commande ci-dessous :
+Dans une console, tapez la commande ci-dessous :
 
   ```docker-compose -f smart-traffic/docker-compose.yml up```
 
@@ -50,6 +48,45 @@ Dans une console, taper la commande ci-dessous :
 
 * Simulation
 
-Dans une autre console, taper la commande ci-dessous :
+Dans une autre console, tapez la commande ci-dessous :
 
 ```docker-compose -f smart-traffic/car/docker-compose.yml up```
+
+Le simulateur d'une voiture est construit comme suit :
+
+- Un fichier de configuration (sous format ```.yml```), pour simuler les mouvements de la voiture.
+
+```yaml 
+car:
+  stationId: FR-CAR-1
+  stationType: 5
+scenarios:
+- name: normal
+  movements:
+  - event: /zone/in
+    perform: null
+    speed: 90.0
+    heading: 0
+    position:
+      latitude: 49.282851
+      longitude: 4.107277
+```
+Ce fichier peut être construit de deux manière :
+
+* 1ère manière :
+
+Préparez un fichier ```.csv```(délimité par des virgules) des coordonnées comme suit :
+
+![](car/data/code/CarConfigGenerator.py?raw=true)
+
+Et exécuter le script ```mart-traffic/car/data/code/CarConfigGenerator.py``` et se laissé guidé. 
+
+* 2ème manière :
+
+En fournissant un fichier toujours sous format ```.csv``` (délimité par des virgules).
+
+
+
+- Un programme d'exécution.
+
+PS: les diofférents packets envoyées peuvent être visualisés dans les logs ```docker-compose``` correspondants.
