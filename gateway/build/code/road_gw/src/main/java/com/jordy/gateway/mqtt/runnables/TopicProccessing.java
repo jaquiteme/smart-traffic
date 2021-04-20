@@ -26,8 +26,8 @@ public class TopicProccessing implements Runnable {
     private DistributedCAMQueue camQueueInstance;
     private DistributedDENMQueue denmQueueInstance;
     private final static Double MIN_SPEED_ALLOWED = 90.0;
-    private final static int JAM_IDLE_TIME = 20;
-    private final static int ACCIDENT_IDLE_TIME = 20;
+    private final static int JAM_IDLE_TIME = 60;
+    private final static int ACCIDENT_IDLE_TIME = 60;
     private final static int COND_JAM_VALIDATION = 3;
     private final static int COND_ACCIDENT_VALIDATION = 2;
 
@@ -47,10 +47,9 @@ public class TopicProccessing implements Runnable {
             public void jobArrived(JobEvent jobEvent) {
                 try {
                     Job newJob = jobQueueInstance.getJob();
-                    System.out.println("Something...");
                     jobProcessing(newJob);
                 } catch (Exception e) {
-                    System.out.println("SORRY JOB NOT AVAILABLE AN ERROR OCCURED " + e.getMessage());
+                    System.out.println("SORRY JOB NOT AVAILABLE OR AN ERROR OCCURED " + e.getMessage());
                 }
             }
         });

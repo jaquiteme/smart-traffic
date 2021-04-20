@@ -1,16 +1,16 @@
 return {
-	["config"] = {
-		["access_model"] = "open";
-		["persist_items"] = false;
-		["publish_model"] = "publishers";
-		["max_items"] = 20;
-	};
-	["affiliations"] = {
-		["jordy@example.com"] = "owner";
-	};
+	["name"] = "cam_events";
 	["subscribers"] = {
 		["user1@example.com"] = true;
 		["backup01@example.com"] = true;
 	};
-	["name"] = "cam_events";
+	["config"] = {
+		["max_items"] = 20;
+		["persist_items"] = false;
+		["access_model"] = "open";
+		["publish_model"] = "publishers";
+	};
+	["affiliations"] = {
+		["jordy@example.com"] = "owner";
+	};
 };

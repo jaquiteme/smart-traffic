@@ -26,15 +26,11 @@ Ajouter les lignes suivantes dans votre fichier `/etc/hosts`:
 * 10.5.0.2 example.com
 * 10.5.0.2 pubsub.example.com
 
-3. ### **Volumes**
-
-Créé un volume pour mongoDB en exécutant la commande suivante: 
-
 ```docker volume create mongo-db```
 
 :warning: Assuré vous d'être connecté à Internet.
 
-4. ### **Intaller Docker Compose**
+3. ### **Intaller Docker Compose**
 
 https://docs.docker.com/compose/install/
 
@@ -51,3 +47,9 @@ Dans une console, taper la commande ci-dessous :
   ```docker-compose -f smart-traffic/docker-compose.yml up```
 
 :warning: Le démarrage peut prendre quelques minutes et il faudrait attendre avant de démarrer la simulation !!!
+
+* Simulation
+
+Dans une autre console, taper la commande ci-dessous :
+
+```docker-compose -f smart-traffic/car/docker-compose.yml up```

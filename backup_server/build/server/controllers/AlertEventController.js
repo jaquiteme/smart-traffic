@@ -43,30 +43,6 @@ exports.find_between_dates = async function (req, res) {
     }
 }
 
-// db.alert_events.aggregate([
-//     {
-//         $match: {
-//             created_at: { $gte: 1618247170412, $lte: 1618429886838 }
-//         },
-//     },
-//     { $sort: { created_at: 1 } },
-//     {
-//         $group: {
-//             _id: {
-//                 created_at: { $dateToString: { format: "%Y-%m-%d %H:%M", date: { $convert: { input: "$created_at", to: "date" } } } },
-//                 tag: "$tag"
-//             },
-//             count: { $sum: 1 }
-//         }
-//     }, 
-//     {
-//         $group: {
-//             _id: { tag: "$_id.tag" },
-//             stats: { $addToSet: { created_at: "$_id.created_at", count: "$count" } }
-//         }
-//     },
-// ])
-
 // Get accident and jams stat by date 
 exports.stat_btw_events_by_date = async function (req, res) {
     try {
@@ -75,7 +51,7 @@ exports.stat_btw_events_by_date = async function (req, res) {
         const response = await AlertEvent.aggregate([
             {
                 $match: {
-                    created_at: { $gte: 1618247170412, $lte: 1618429886838 }
+                    created_at: { $gte: gt_date, $lte: lt_date }
                 },
             },
             {

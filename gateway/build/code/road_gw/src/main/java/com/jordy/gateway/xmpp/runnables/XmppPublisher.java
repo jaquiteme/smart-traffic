@@ -29,6 +29,8 @@ public class XmppPublisher implements Runnable {
     private DistributedCAMQueue camQueueInstance;
     LeafNode denmNode = null;
     LeafNode camNode = null;
+    private int notificationDenmQueue = 0;
+    private int notificationCamQueue = 0;
 
     public XmppPublisher(AbstractXMPPConnection connection) {
         this.connectionInstance = connection;
@@ -79,11 +81,15 @@ public class XmppPublisher implements Runnable {
         this.camQueueInstance.addDistributedMessageListener(new DistributedMessageListener<RoadMessage>() {
             @Override
             public void messageToDistribute(DistributedEvent<RoadMessage> event) {
-                try {
-                    PayloadItem<RoadMessage> newCamItem = new PayloadItem<>(event.getMessage());
-                    camNode.publish(newCamItem);
-                } catch (Exception e) {
-                    System.out.println(e.getMessage());
+                if (notificationCamQueue > 0) {
+                    notificationCamQueue++;
+                } else {
+                    try {
+                        PayloadItem<RoadMessage> newCamItem = new PayloadItem<>(event.getMessage());
+                        camNode.publish(newCamItem);
+                    } catch (Exception e) {
+                        System.out.println(e.getMessage());
+                    }
                 }
             }
         });
@@ -91,17 +97,40 @@ public class XmppPublisher implements Runnable {
         this.denmQueueInstance.addDistributedMessageListener(new DistributedMessageListener<Alert>() {
             @Override
             public void messageToDistribute(DistributedEvent<Alert> event) {
-                try {
-                    PayloadItem<Alert> newAccidentItem = new PayloadItem<>(event.getMessage());
-                    denmNode.publish(newAccidentItem);
-                } catch (Exception e) {
-                    System.out.println(e.getMessage());
+                if (notificationDenmQueue > 0) {
+                    notificationDenmQueue++;
+                } else {
+                    try {
+                        PayloadItem<Alert> newAccidentItem = new PayloadItem<>(event.getMessage());
+                        denmNode.publish(newAccidentItem);
+                    } catch (Exception e) {
+                        System.out.println(e.getMessage());
+                    }
                 }
             }
         });
 
         // System.out.println("Waiting for topic...");
         while (this.connectionInstance.isConnected()) {
+            if (notificationDenmQueue > 0) {
+                notificationDenmQueue--;
+                try {
+                    PayloadItem<Alert> newAccidentItem = new PayloadItem<>(this.denmQueueInstance.getElement());
+                    denmNode.publish(newAccidentItem);
+                } catch (InterruptedException | NoResponseException | XMPPErrorException | NotConnectedException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            if (notificationCamQueue > 0) {
+                notificationCamQueue--;
+                try {
+                    PayloadItem<RoadMessage> newCamItem = new PayloadItem<>(this.camQueueInstance.getElement());
+                    camNode.publish(newCamItem);
+                } catch (InterruptedException | NoResponseException | XMPPErrorException | NotConnectedException e) {
+                    e.printStackTrace();
+                }
+            }
         }
 
         this.connectionInstance.disconnect();

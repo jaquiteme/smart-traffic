@@ -28,8 +28,6 @@ const router = new VueRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  console.log("TO" + to.path)
-  console.log("FROM" + from.path)
   next();
 })
 
