@@ -38,15 +38,15 @@ https://docs.docker.com/compose/install/
 
 1. ### **Démarrage**
 
-   1. Serveurs et passerelles
+    1. Serveurs et passerelles
 
-Dans une console, tapez la commande ci-dessous :
+    Dans une console, tapez la commande ci-dessous :
 
   ```docker-compose -f smart-traffic/docker-compose.yml up```
 
-:warning: Le démarrage peut prendre quelques minutes et il faudrait attendre avant de démarrer la simulation !!!
+    :warning: Le démarrage peut prendre quelques minutes et il faudrait attendre avant de démarrer la simulation !!!
 
-* Simulation
+    1. Simulation
 
 Dans une autre console, tapez la commande ci-dessous :
 
