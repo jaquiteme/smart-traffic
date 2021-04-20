@@ -48,5 +48,5 @@ var port = process.env.PORT || 8080;
 app.use('/api', apiRoutes)
 //
 app.listen(port, function () {
-    console.log("Running NodeJS, Express application on port " + port);
+    console.log("Running Backup Server API on port " + port);
 });

@@ -8,5 +8,5 @@ COPY ./code /projects
 RUN  keytool -importcert -alias prosody.server -cacerts -file /projects/crt/example.com.crt -storepass changeit -noprompt
 RUN  keytool -import -alias prosody.server.pubsub -cacerts -file /projects/crt/pubsub.example.com.crt -storepass changeit -noprompt
 RUN  chmod +x /projects/entrypoint.sh
-RUN  mvn -file  /projects/road_gw clean install
+RUN  mvn -file  /projects/road_gw clean install -Dmaven.test.skip=true
 ENTRYPOINT ["/projects/entrypoint.sh"]

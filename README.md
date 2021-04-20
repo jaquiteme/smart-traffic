@@ -16,23 +16,38 @@ qui jouent une grande importance dans le monde l'**IoT**.
 
 ## Installation
 
-1. ### Cloner le projet
+1. ### **Clone du projet**
 
 ```git clone https://github.com/jordy-aquiteme/smart-traffic```
 
-2. ### Domaine 
+2. ### **Nom de Domaine**
 
 Ajouter les lignes suivantes dans votre fichier `/etc/hosts`:
 * 10.5.0.2 example.com
 * 10.5.0.2 pubsub.example.com
 
-3. ### Volumes
+3. ### **Volumes**
 
 Créé un volume pour mongoDB en exécutant la commande suivante: 
 
 ```docker volume create mongo-db```
 
-:warning: Assurer vous d'être connecté à internet.
+:warning: Assuré vous d'être connecté à Internet.
+
+4. ### **Intaller Docker Compose**
+
+https://docs.docker.com/compose/install/
 
 ## Usage
+
 [TODO]
+
+1. ### **Démarrage**
+
+* Serveurs et passerelles
+
+Dans une console, taper la commande ci-dessous :
+
+  ```docker-compose -f smart-traffic/docker-compose.yml up```
+
+:warning: Le démarrage peut prendre quelques minutes et il faudrait attendre avant de démarrer la simulation !!!

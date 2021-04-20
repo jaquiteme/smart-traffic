@@ -344,3 +344,59 @@
 1618857301: Client FR51100-JAURES-GW-001 closed its connection.
 1618857303: mosquitto version 2.0.7 terminating
 1618857303: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1618914074: mosquitto version 2.0.7 starting
+1618914074: Config loaded from /mosquitto/config/mosquitto.conf.
+1618914074: Opening ipv4 listen socket on port 1883.
+1618914074: Opening ipv6 listen socket on port 1883.
+1618914074: mosquitto version 2.0.7 running
+1618914101: mosquitto version 2.0.7 terminating
+1618914101: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1618914497: mosquitto version 2.0.7 starting
+1618914497: Config loaded from /mosquitto/config/mosquitto.conf.
+1618914497: Opening ipv4 listen socket on port 1883.
+1618914497: Opening ipv6 listen socket on port 1883.
+1618914497: mosquitto version 2.0.7 running
+1618914553: New connection from 10.5.0.9:39550 on port 1883.
+1618914554: New client connected from 10.5.0.9:39550 as FR51100-JAURES-GW-001 (p2, c1, k60).
+1618914648: Client FR51100-JAURES-GW-001 closed its connection.
+1618914650: mosquitto version 2.0.7 terminating
+1618914650: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1618914950: mosquitto version 2.0.7 starting
+1618914950: Config loaded from /mosquitto/config/mosquitto.conf.
+1618914950: Opening ipv4 listen socket on port 1883.
+1618914950: Opening ipv6 listen socket on port 1883.
+1618914950: mosquitto version 2.0.7 running
+1618915008: New connection from 10.5.0.9:39626 on port 1883.
+1618915008: New client connected from 10.5.0.9:39626 as FR51100-JAURES-GW-001 (p2, c1, k60).
+1618915128: Client FR51100-JAURES-GW-001 closed its connection.
+1618915130: mosquitto version 2.0.7 terminating
+1618915130: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1618915735: mosquitto version 2.0.7 starting
+1618915735: Config loaded from /mosquitto/config/mosquitto.conf.
+1618915735: Opening ipv4 listen socket on port 1883.
+1618915735: Opening ipv6 listen socket on port 1883.
+1618915735: mosquitto version 2.0.7 running
+1618915791: New connection from 10.5.0.9:39788 on port 1883.
+1618915792: New client connected from 10.5.0.9:39788 as FR51100-JAURES-GW-001 (p2, c1, k60).
+1618915870: New connection from 10.5.0.27:41485 on port 1883.
+1618915870: New client connected from 10.5.0.27:41485 as FR-CAR-1 (p2, c1, k60).
+1618915872: New connection from 10.5.0.28:46029 on port 1883.
+1618915872: New client connected from 10.5.0.28:46029 as FR-CAR-2 (p2, c1, k60).
+1618915874: New connection from 10.5.0.29:32917 on port 1883.
+1618915874: New client connected from 10.5.0.29:32917 as FR-CAR-URG-1 (p2, c1, k60).
+1618915898: Client FR-CAR-1 closed its connection.
+1618915904: Client FR-CAR-2 closed its connection.
+1618915940: Client FR-CAR-URG-1 closed its connection.
+1618916269: Client FR51100-JAURES-GW-001 closed its connection.
+1618916313: mosquitto version 2.0.7 terminating
+1618916313: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1618916916: mosquitto version 2.0.7 starting
+1618916916: Config loaded from /mosquitto/config/mosquitto.conf.
+1618916916: Opening ipv4 listen socket on port 1883.
+1618916916: Opening ipv6 listen socket on port 1883.
+1618916916: mosquitto version 2.0.7 running
+1618916975: New connection from 10.5.0.9:39928 on port 1883.
+1618916975: New client connected from 10.5.0.9:39928 as FR51100-JAURES-GW-001 (p2, c1, k60).
+1618917370: Client FR51100-JAURES-GW-001 closed its connection.
+1618917373: mosquitto version 2.0.7 terminating
+1618917373: Saving in-memory database to /mosquitto/data//mosquitto.db.

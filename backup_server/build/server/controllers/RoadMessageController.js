@@ -125,7 +125,6 @@ exports.new = async function (req, res) {
 
     try {
         // save the user and check for errors
-        console.log(req);
         const response = await road_message.save();
         res.status(200).json({
             status: 200,

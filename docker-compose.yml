@@ -95,8 +95,6 @@ services:
     restart: always
     ports:
       - 8084:8080
-    volumes:
-      - ./backup_server/data/server:/data/server
     networks:
       iot-network:
         ipv4_address: 10.5.0.21
