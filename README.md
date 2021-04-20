@@ -38,7 +38,7 @@ https://docs.docker.com/compose/install/
 
 1. ### **Démarrage**
 
-* Serveurs et passerelles
+   1. Serveurs et passerelles
 
 Dans une console, tapez la commande ci-dessous :
 
@@ -54,7 +54,7 @@ Dans une autre console, tapez la commande ci-dessous :
 
 Le simulateur d'une voiture est construit comme suit :
 
-- Un fichier de configuration (sous format ```.yml```), pour simuler les mouvements de la voiture.
+ Un fichier de configuration (sous format ```.yml```), pour simuler les mouvements de la voiture.
 
 ```yaml 
 car:
@@ -102,7 +102,7 @@ latitude | longitude | speed | event | perform | causeCode
   * ***perform*** : pour indiquer qu'à cette étape nous souhaitons envoyer un message de type DENM.  
 
   Ensuite il faudra indiquer le code de l'évèvenemt 
-  * ***causeCode***.  
+  * ***causeCode*** :
     * Accident : 4
     * Embouteillage : 5
     * etc.
