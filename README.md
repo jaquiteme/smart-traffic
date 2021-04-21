@@ -18,12 +18,12 @@ _Bibliothèques MQTT_ :
 
 ## Architecture du projet
 
-![Architechture](images/archi_smart_traffic.png?raw=true)
+![Architechture](images/archi_smart_traffic.jpg?raw=true)
 
 ## Fonctionement
 
 [TODO]
-![Fontionement](images/fonctionement_smart_traffic.jpg?raw=true)
+![Fontionement](images/workflow_smart_traffic.jpg?raw=true)
 
 ## Installation
 
