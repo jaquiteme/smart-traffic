@@ -1,18 +1,18 @@
 return {
-	["config"] = {
-		["publish_model"] = "publishers";
-		["max_items"] = 20;
-		["persist_items"] = false;
-		["access_model"] = "open";
-	};
-	["subscribers"] = {
-		["jordy@example.com"] = true;
-		["backup01@example.com"] = true;
-		["central01@example.com"] = true;
-		["user1@example.com"] = true;
-	};
 	["affiliations"] = {
 		["jordy@example.com"] = "owner";
+	};
+	["subscribers"] = {
+		["backup01@example.com"] = true;
+		["user1@example.com"] = true;
+		["jordy@example.com"] = true;
+		["central01@example.com"] = true;
+	};
+	["config"] = {
+		["persist_items"] = false;
+		["access_model"] = "open";
+		["publish_model"] = "publishers";
+		["max_items"] = 20;
 	};
 	["name"] = "denm_events";
 };

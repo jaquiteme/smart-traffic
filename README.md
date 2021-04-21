@@ -130,4 +130,6 @@ Pour apercevoir, les différents événements remontés en temps réel par les p
 
   <http://addr_votre_host|localhost:8083/traffic-mgt-center/>
 
+  ![WEB UI](images/web-ui.gif?raw=true)
+
 PS: les différents paquets envoyés peuvent être visualisés dans les logs ```docker-compose``` correspondant.

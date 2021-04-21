@@ -1,16 +1,16 @@
 return {
-	["config"] = {
-		["publish_model"] = "publishers";
-		["max_items"] = 20;
-		["persist_items"] = false;
-		["access_model"] = "open";
+	["affiliations"] = {
+		["jordy@example.com"] = "owner";
 	};
 	["subscribers"] = {
 		["backup01@example.com"] = true;
 		["user1@example.com"] = true;
 	};
-	["affiliations"] = {
-		["jordy@example.com"] = "owner";
+	["config"] = {
+		["persist_items"] = false;
+		["access_model"] = "open";
+		["publish_model"] = "publishers";
+		["max_items"] = 20;
 	};
 	["name"] = "cam_events";
 };
