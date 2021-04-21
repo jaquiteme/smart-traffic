@@ -24,7 +24,7 @@ const routes = [
 const router = new VueRouter({
   mode: 'history',
   routes: routes,
-  base: '/strophe-pr'
+  base: '/traffic-mgt-center'
 })
 
 router.beforeEach((to, from, next) => {
