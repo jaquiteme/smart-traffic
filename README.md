@@ -62,7 +62,7 @@ _Bibliothèques MQTT_ :
 
         ```docker-compose -f smart-traffic/car/docker-compose.yml up```
 
-        _la simulation démarra avec les fichiers par défauts et se trouvent dans `car/data`_
+        _la simulation démarrera avec les fichiers par défauts qui se trouvent dans `car/data`_
 
         Par ailleurs, le simulateur d'une voiture est construit comme suit :
 
