@@ -13,9 +13,9 @@ Vue.component('alert-card', {
           <span style="font-size: 1em"> {{ gateway }} </span>
         </div>
         <p class="card-text">
-          <span style="margin-right: 40%" class="badge bg-light-danger">{{
-            getTagName
-          }}</span>
+          <span style="margin-right: 40%" :class="'badge ' + alertBadge">
+            {{ getTagName }}
+          </span>
           <small>{{ getTimeDiffString }}</small>
         </p>
       </div>
@@ -29,6 +29,7 @@ Vue.component('alert-card', {
       timePassed: "",
       interval: null,
       alertType: "",
+      alertBadge: null,
       classes: "card card-alerts"
     }
   },
@@ -42,6 +43,9 @@ Vue.component('alert-card', {
     },
     classes: function (newVal, oldVal) {
       this.classes = newVal
+    },
+    alertBadge: function(val){
+      this.alertBadge = val
     },
     tag: function (newVal, oldVal) {
       if (val == int(4)) {
@@ -65,9 +69,11 @@ Vue.component('alert-card', {
       if (this.tag == 4) {
         this.alertType = 'accident'
         this.classes += " card-border-full-danger"
+        this.alertBadge = 'bg-light-danger'
       } else {
         this.alertType = 'embouteillage'
         this.classes += " card-border-full-warning"
+        this.alertBadge = 'bg-light-warning'
       }
       return this.alertType
     }

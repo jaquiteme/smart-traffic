@@ -1,16 +1,16 @@
 return {
-	["name"] = "cam_events";
-	["subscribers"] = {
-		["user1@example.com"] = true;
-		["backup01@example.com"] = true;
-	};
 	["config"] = {
+		["publish_model"] = "publishers";
 		["max_items"] = 20;
 		["persist_items"] = false;
 		["access_model"] = "open";
-		["publish_model"] = "publishers";
+	};
+	["subscribers"] = {
+		["backup01@example.com"] = true;
+		["user1@example.com"] = true;
 	};
 	["affiliations"] = {
 		["jordy@example.com"] = "owner";
 	};
+	["name"] = "cam_events";
 };

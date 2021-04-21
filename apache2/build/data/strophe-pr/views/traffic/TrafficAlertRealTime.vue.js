@@ -62,6 +62,7 @@ var TrafficAlertRealTime = {
     },
     $route(to, from) {
       this.alert_detail = this.getOneAlert(to.query.id)[0]
+      console.log(this.alert_detail)
     }
   },
   computed: {
@@ -92,8 +93,7 @@ var TrafficAlertRealTime = {
       if (!this.subscribed) {
         return true;
       }
-
-      console.log(message.innerHTML)
+      //console.log(message.innerHTML)
       // this.messages.push({ id: message.id, message: message.textContent })
       this.alerts.unshift(this.formatEventXmlToJson(message.innerHTML))
 
@@ -114,13 +114,27 @@ var TrafficAlertRealTime = {
       let id = xmlDoc.getElementsByTagName('item')[0].getAttribute('id')
       let tag = xmlDoc.getElementsByTagName('item')[0].getElementsByTagName('alert')[0].getAttribute('tag')
       let gateway = xmlDoc.getElementsByTagName('item')[0].getElementsByTagName('alert')[0].getElementsByTagName('gateway-id')[0].innerHTML
-      let content = xmlDoc.getElementsByTagName('item')[0].getElementsByTagName('alert')[0].getElementsByTagName('content')[0].innerHTML
+      let content = xmlDoc.getElementsByTagName('item')[0].getElementsByTagName('alert')[0].getElementsByTagName('content')[0]
       let created_at = xmlDoc.getElementsByTagName('item')[0].getElementsByTagName('alert')[0].getElementsByTagName('created_at')[0].innerHTML
 
       /*let type = (eventType !== 'accident') ? 'alert alert-warning' : 'alert alert-danger'
       let currentTimeMillis = new Date().getTime()*/
+      return { _id: id, 'gateway-id': gateway, tag: tag, content: this.formatEventXMLContentToJson(content), created_at: created_at }
+    },
+    formatEventXMLContentToJson: function(content){
+      var output = []
+      let denmMessages = content.getElementsByTagName('denm')
+      for (let i = 0; i < denmMessages.length; i++){
+        let station_id = denmMessages[i].getElementsByTagName('station-id')[0].innerHTML
+        let station_type = denmMessages[i].getElementsByTagName('station-type')[0].innerHTML
+        let cause_code = denmMessages[i].getElementsByTagName('cause-code')[0].innerHTML
+        let latitude = denmMessages[i].getElementsByTagName('position')[0].getElementsByTagName('latitude')[0].innerHTML
+        let longitude = denmMessages[i].getElementsByTagName('position')[0].getElementsByTagName('longitude')[0].innerHTML
+        let position = { latitude: latitude, longitude: longitude}
 
-      return { _id: id, 'gateway-id': gateway, tag: tag, content: content, created_at: created_at }
+        output.push({'station-id': station_id, 'station-type' : station_type, 'cause-code': cause_code, position: position })
+      }
+      return output
     },
     getOneAlert: function (id) {
       return this.alerts.filter((item) => item._id === id)

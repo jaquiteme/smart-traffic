@@ -475,3 +475,203 @@
 1618923965: Client FR51100-JAURES-GW-001 closed its connection.
 1618923968: mosquitto version 2.0.7 terminating
 1618923968: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1618992177: mosquitto version 2.0.7 starting
+1618992177: Config loaded from /mosquitto/config/mosquitto.conf.
+1618992177: Opening ipv4 listen socket on port 1883.
+1618992177: Opening ipv6 listen socket on port 1883.
+1618992177: mosquitto version 2.0.7 running
+1618992232: New connection from 10.5.0.9:41312 on port 1883.
+1618992232: New client connected from 10.5.0.9:41312 as FR51100-JAURES-GW-001 (p2, c1, k60).
+1618992390: New connection from 10.5.0.27:48331 on port 1883.
+1618992390: New client connected from 10.5.0.27:48331 as FR-CAR-1 (p2, c1, k60).
+1618992392: New connection from 10.5.0.28:33629 on port 1883.
+1618992392: New client connected from 10.5.0.28:33629 as FR-CAR-2 (p2, c1, k60).
+1618992394: New connection from 10.5.0.29:47201 on port 1883.
+1618992394: New client connected from 10.5.0.29:47201 as FR-CAR-URG-1 (p2, c1, k60).
+1618992418: Client FR-CAR-1 closed its connection.
+1618992424: Client FR-CAR-2 closed its connection.
+1618992459: Client FR-CAR-URG-1 closed its connection.
+1618993977: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1618995778: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1618997579: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1618998263: Client FR51100-JAURES-GW-001 closed its connection.
+1618998265: mosquitto version 2.0.7 terminating
+1618998265: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1618998325: mosquitto version 2.0.7 starting
+1618998325: Config loaded from /mosquitto/config/mosquitto.conf.
+1618998325: Opening ipv4 listen socket on port 1883.
+1618998325: Opening ipv6 listen socket on port 1883.
+1618998325: mosquitto version 2.0.7 running
+1618998391: New connection from 10.5.0.9:41564 on port 1883.
+1618998392: New client connected from 10.5.0.9:41564 as FR51100-JAURES-GW-001 (p2, c1, k60).
+1618998499: New connection from 10.5.0.27:54101 on port 1883.
+1618998499: New client connected from 10.5.0.27:54101 as FR-CAR-1 (p2, c1, k60).
+1618998501: New connection from 10.5.0.28:32791 on port 1883.
+1618998501: New client connected from 10.5.0.28:32791 as FR-CAR-2 (p2, c1, k60).
+1618998502: New connection from 10.5.0.29:51737 on port 1883.
+1618998502: New client connected from 10.5.0.29:51737 as FR-CAR-URG-1 (p2, c1, k60).
+1618998527: Client FR-CAR-1 closed its connection.
+1618998533: Client FR-CAR-2 closed its connection.
+1618998568: Client FR-CAR-URG-1 closed its connection.
+1618999129: Client FR51100-JAURES-GW-001 closed its connection.
+1618999131: mosquitto version 2.0.7 terminating
+1618999131: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1618999784: mosquitto version 2.0.7 starting
+1618999784: Config loaded from /mosquitto/config/mosquitto.conf.
+1618999784: Opening ipv4 listen socket on port 1883.
+1618999784: Opening ipv6 listen socket on port 1883.
+1618999784: mosquitto version 2.0.7 running
+1618999835: New connection from 10.5.0.9:41688 on port 1883.
+1618999836: New client connected from 10.5.0.9:41688 as FR51100-JAURES-GW-001 (p2, c1, k60).
+1618999987: New connection from 10.5.0.27:44685 on port 1883.
+1618999987: New client connected from 10.5.0.27:44685 as FR-CAR-1 (p2, c1, k60).
+1618999989: New connection from 10.5.0.28:60281 on port 1883.
+1618999989: New client connected from 10.5.0.28:60281 as FR-CAR-2 (p2, c1, k60).
+1618999990: New connection from 10.5.0.29:42457 on port 1883.
+1618999990: New client connected from 10.5.0.29:42457 as FR-CAR-URG-1 (p2, c1, k60).
+1619000015: Client FR-CAR-1 closed its connection.
+1619000021: Client FR-CAR-2 closed its connection.
+1619000028: Client FR-CAR-URG-1 closed its connection.
+1619000143: New connection from 10.5.0.27:58235 on port 1883.
+1619000143: New client connected from 10.5.0.27:58235 as FR-CAR-1 (p2, c1, k60).
+1619000146: New connection from 10.5.0.28:39721 on port 1883.
+1619000146: New client connected from 10.5.0.28:39721 as FR-CAR-2 (p2, c1, k60).
+1619000149: New connection from 10.5.0.29:48763 on port 1883.
+1619000149: New client connected from 10.5.0.29:48763 as FR-CAR-URG-1 (p2, c1, k60).
+1619000171: Client FR-CAR-1 closed its connection.
+1619000176: Client FR-CAR-URG-1 closed its connection.
+1619000178: Client FR-CAR-2 closed its connection.
+1619000282: New connection from 10.5.0.27:44065 on port 1883.
+1619000282: New client connected from 10.5.0.27:44065 as FR-CAR-1 (p2, c1, k60).
+1619000284: New connection from 10.5.0.28:43235 on port 1883.
+1619000284: New client connected from 10.5.0.28:43235 as FR-CAR-2 (p2, c1, k60).
+1619000287: New connection from 10.5.0.29:36301 on port 1883.
+1619000287: New client connected from 10.5.0.29:36301 as FR-CAR-URG-1 (p2, c1, k60).
+1619000309: Client FR-CAR-1 closed its connection.
+1619000316: Client FR-CAR-URG-1 closed its connection.
+1619000316: Client FR-CAR-2 closed its connection.
+1619000348: New connection from 10.5.0.27:46617 on port 1883.
+1619000348: New client connected from 10.5.0.27:46617 as FR-CAR-1 (p2, c1, k60).
+1619000352: New connection from 10.5.0.28:52239 on port 1883.
+1619000352: New client connected from 10.5.0.28:52239 as FR-CAR-2 (p2, c1, k60).
+1619000354: New connection from 10.5.0.29:45603 on port 1883.
+1619000354: New client connected from 10.5.0.29:45603 as FR-CAR-URG-1 (p2, c1, k60).
+1619000376: Client FR-CAR-1 closed its connection.
+1619000383: Client FR-CAR-2 closed its connection.
+1619000387: Client FR-CAR-URG-1 closed its connection.
+1619000421: New connection from 10.5.0.27:41281 on port 1883.
+1619000421: New client connected from 10.5.0.27:41281 as FR-CAR-1 (p2, c1, k60).
+1619000424: New connection from 10.5.0.28:35411 on port 1883.
+1619000424: New client connected from 10.5.0.28:35411 as FR-CAR-2 (p2, c1, k60).
+1619000427: New connection from 10.5.0.29:38285 on port 1883.
+1619000427: New client connected from 10.5.0.29:38285 as FR-CAR-URG-1 (p2, c1, k60).
+1619000449: Client FR-CAR-1 closed its connection.
+1619000456: Client FR-CAR-2 closed its connection.
+1619000462: Client FR-CAR-URG-1 closed its connection.
+1619000522: New connection from 10.5.0.27:34829 on port 1883.
+1619000522: New client connected from 10.5.0.27:34829 as FR-CAR-1 (p2, c1, k60).
+1619000525: New connection from 10.5.0.28:59019 on port 1883.
+1619000525: New client connected from 10.5.0.28:59019 as FR-CAR-2 (p2, c1, k60).
+1619000527: New connection from 10.5.0.29:42741 on port 1883.
+1619000527: New client connected from 10.5.0.29:42741 as FR-CAR-URG-1 (p2, c1, k60).
+1619000550: Client FR-CAR-1 closed its connection.
+1619000557: Client FR-CAR-2 closed its connection.
+1619000563: Client FR-CAR-URG-1 closed its connection.
+1619000667: New connection from 10.5.0.27:41923 on port 1883.
+1619000667: New client connected from 10.5.0.27:41923 as FR-CAR-1 (p2, c1, k60).
+1619000670: New connection from 10.5.0.28:32987 on port 1883.
+1619000670: New client connected from 10.5.0.28:32987 as FR-CAR-2 (p2, c1, k60).
+1619000673: New connection from 10.5.0.29:51439 on port 1883.
+1619000673: New client connected from 10.5.0.29:51439 as FR-CAR-URG-1 (p2, c1, k60).
+1619000695: Client FR-CAR-1 closed its connection.
+1619000702: Client FR-CAR-2 closed its connection.
+1619000707: Client FR-CAR-URG-1 closed its connection.
+1619000777: New connection from 10.5.0.27:33647 on port 1883.
+1619000777: New client connected from 10.5.0.27:33647 as FR-CAR-1 (p2, c1, k60).
+1619000780: New connection from 10.5.0.28:33685 on port 1883.
+1619000780: New client connected from 10.5.0.28:33685 as FR-CAR-2 (p2, c1, k60).
+1619000782: New connection from 10.5.0.29:60943 on port 1883.
+1619000782: New client connected from 10.5.0.29:60943 as FR-CAR-URG-1 (p2, c1, k60).
+1619000805: Client FR-CAR-1 closed its connection.
+1619000812: Client FR-CAR-2 closed its connection.
+1619000836: Client FR-CAR-URG-1 closed its connection.
+1619000930: New connection from 10.5.0.27:33713 on port 1883.
+1619000930: New client connected from 10.5.0.27:33713 as FR-CAR-1 (p2, c1, k60).
+1619000933: New connection from 10.5.0.28:46651 on port 1883.
+1619000933: New client connected from 10.5.0.28:46651 as FR-CAR-2 (p2, c1, k60).
+1619000935: New connection from 10.5.0.29:58669 on port 1883.
+1619000935: New client connected from 10.5.0.29:58669 as FR-CAR-URG-1 (p2, c1, k60).
+1619000958: Client FR-CAR-1 closed its connection.
+1619000964: Client FR-CAR-2 closed its connection.
+1619000989: Client FR51100-JAURES-GW-001 closed its connection.
+1619000991: mosquitto version 2.0.7 terminating
+1619000991: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1619001032: mosquitto version 2.0.7 starting
+1619001032: Config loaded from /mosquitto/config/mosquitto.conf.
+1619001032: Opening ipv4 listen socket on port 1883.
+1619001032: Opening ipv6 listen socket on port 1883.
+1619001032: mosquitto version 2.0.7 running
+1619001083: New connection from 10.5.0.9:41826 on port 1883.
+1619001083: New client connected from 10.5.0.9:41826 as FR51100-JAURES-GW-001 (p2, c1, k60).
+1619001196: New connection from 10.5.0.27:35547 on port 1883.
+1619001196: New client connected from 10.5.0.27:35547 as FR-CAR-1 (p2, c1, k60).
+1619001198: New connection from 10.5.0.28:41803 on port 1883.
+1619001198: New client connected from 10.5.0.28:41803 as FR-CAR-2 (p2, c1, k60).
+1619001199: New connection from 10.5.0.29:59399 on port 1883.
+1619001199: New client connected from 10.5.0.29:59399 as FR-CAR-URG-1 (p2, c1, k60).
+1619001224: Client FR-CAR-1 closed its connection.
+1619001230: Client FR-CAR-2 closed its connection.
+1619001237: Client FR-CAR-URG-1 closed its connection.
+1619001458: New connection from 10.5.0.27:54629 on port 1883.
+1619001458: New client connected from 10.5.0.27:54629 as FR-CAR-1 (p2, c1, k60).
+1619001461: New connection from 10.5.0.28:59459 on port 1883.
+1619001461: New client connected from 10.5.0.28:59459 as FR-CAR-2 (p2, c1, k60).
+1619001464: New connection from 10.5.0.29:57003 on port 1883.
+1619001464: New client connected from 10.5.0.29:57003 as FR-CAR-URG-1 (p2, c1, k60).
+1619001486: Client FR-CAR-1 closed its connection.
+1619001493: Client FR-CAR-2 closed its connection.
+1619001500: Client FR-CAR-URG-1 closed its connection.
+1619001573: New connection from 10.5.0.27:51371 on port 1883.
+1619001573: New client connected from 10.5.0.27:51371 as FR-CAR-1 (p2, c1, k60).
+1619001576: New connection from 10.5.0.28:52095 on port 1883.
+1619001576: New client connected from 10.5.0.28:52095 as FR-CAR-2 (p2, c1, k60).
+1619001579: New connection from 10.5.0.29:49397 on port 1883.
+1619001579: New client connected from 10.5.0.29:49397 as FR-CAR-URG-1 (p2, c1, k60).
+1619001601: Client FR-CAR-1 closed its connection.
+1619001605: Client FR-CAR-URG-1 closed its connection.
+1619001608: Client FR-CAR-2 closed its connection.
+1619001704: New connection from 10.5.0.27:43929 on port 1883.
+1619001704: New client connected from 10.5.0.27:43929 as FR-CAR-1 (p2, c1, k60).
+1619001708: New connection from 10.5.0.28:47325 on port 1883.
+1619001708: New client connected from 10.5.0.28:47325 as FR-CAR-2 (p2, c1, k60).
+1619001710: New connection from 10.5.0.29:58607 on port 1883.
+1619001710: New client connected from 10.5.0.29:58607 as FR-CAR-URG-1 (p2, c1, k60).
+1619001732: Client FR-CAR-1 closed its connection.
+1619001739: Client FR-CAR-2 closed its connection.
+1619001776: Client FR-CAR-URG-1 closed its connection.
+1619001869: New connection from 10.5.0.27:36537 on port 1883.
+1619001869: New client connected from 10.5.0.27:36537 as FR-CAR-1 (p2, c1, k60).
+1619001872: New connection from 10.5.0.28:56201 on port 1883.
+1619001872: New client connected from 10.5.0.28:56201 as FR-CAR-2 (p2, c1, k60).
+1619001875: New connection from 10.5.0.29:41291 on port 1883.
+1619001875: New client connected from 10.5.0.29:41291 as FR-CAR-URG-1 (p2, c1, k60).
+1619001897: Client FR-CAR-1 closed its connection.
+1619001904: Client FR-CAR-2 closed its connection.
+1619001905: Client FR-CAR-URG-1 closed its connection.
+1619002193: New connection from 10.5.0.27:60607 on port 1883.
+1619002193: New client connected from 10.5.0.27:60607 as FR-CAR-1 (p2, c1, k60).
+1619002197: New connection from 10.5.0.28:42335 on port 1883.
+1619002197: New client connected from 10.5.0.28:42335 as FR-CAR-2 (p2, c1, k60).
+1619002200: New connection from 10.5.0.29:35513 on port 1883.
+1619002200: New client connected from 10.5.0.29:35513 as FR-CAR-URG-1 (p2, c1, k60).
+1619002221: Client FR-CAR-1 closed its connection.
+1619002229: Client FR-CAR-2 closed its connection.
+1619002265: Client FR-CAR-URG-1 closed its connection.
+1619002832: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1619004633: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1619006434: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1619008235: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1619010036: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1619011455: Client FR51100-JAURES-GW-001 closed its connection.
+1619011457: mosquitto version 2.0.7 terminating
+1619011457: Saving in-memory database to /mosquitto/data//mosquitto.db.
