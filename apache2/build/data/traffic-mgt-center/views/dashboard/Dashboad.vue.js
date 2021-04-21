@@ -49,7 +49,7 @@ var Dashboard = {
       let now = new Date().getTime()
       console.log(now)
       axios
-        .get("http://127.0.0.2:8084/api/alert_events/stats?gt_date=0&lt_date=" + now)
+        .get("http://127.0.0.1:8084/api/alert_events/stats?gt_date=0&lt_date=" + now)
         .then((response) => {
           this.lineChartLabels = this.getLabels(response.data.data)
           this.datasetsLineChart = this.getLineChartAlertEventStatData(response.data.data)
@@ -108,7 +108,7 @@ var Dashboard = {
     getStats: function () {
       //[NUMBER OF GATEWAYS]
       axios
-        .get("http://127.0.0.2:8084/api/road_messages/gateways/length")
+        .get("http://127.0.0.1:8084/api/road_messages/gateways/length")
         .then((response) => {
           this.stats.push({ title: 'Passerelle', digit: response.data.data, class: 'card wdth-20' })
         })
@@ -117,7 +117,7 @@ var Dashboard = {
         });
       //[NUMBER OF CARS]
       axios
-        .get("http://127.0.0.2:8084/api/road_messages/cars/length")
+        .get("http://127.0.0.1:8084/api/road_messages/cars/length")
         .then((response) => {
           this.stats.push({ title: 'Voitures', digit: response.data.data, class: 'card wdth-20' })
         })
@@ -126,7 +126,7 @@ var Dashboard = {
         });
       //[NUMBER OF MESSAGES]
       axios
-        .get("http://127.0.0.2:8084/api/road_messages/length")
+        .get("http://127.0.0.1:8084/api/road_messages/length")
         .then((response) => {
           this.stats.push({ title: 'Messages', digit: response.data.data, class: 'card wdth-20' })
         })

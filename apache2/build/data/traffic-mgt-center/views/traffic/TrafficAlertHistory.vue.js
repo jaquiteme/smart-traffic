@@ -60,7 +60,7 @@ var TrafficAlertHistory = {
     },
     getAlerts: function () {
       axios
-        .get("http://127.0.0.2:8084/api/alert_events")
+        .get("http://127.0.0.1:8084/api/alert_events")
         .then((response) => {
           this.alerts = response.data.data
         })

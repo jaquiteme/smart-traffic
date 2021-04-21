@@ -47,7 +47,7 @@ var Data = {
     },
     methods: {
         getRawData: function () {
-            axios.get("http://127.0.0.2:8084/api/road_messages")
+            axios.get("http://127.0.0.1:8084/api/road_messages")
                 .then((response) => {
                     this.rawData = response.data.data
                 })

@@ -128,7 +128,13 @@ _Bibliothèques MQTT_ :
 
 Pour apercevoir, les différents événements remontés en temps réel par les passerelles, connectez vous via l'interface au centralisateur d'événement.
 
-  <http://addr_votre_host|localhost:8083/traffic-mgt-center/>
+  <http://localhost:8083/traffic-mgt-center/>
+
+REDIRECTION DE PORTS (_si l'architecture est déployé dans une machine vituelle_)
+
+* localhost 5280
+* localhost 8083
+* localhost 8084
 
   ![WEB UI](images/web-ui.gif?raw=true)
 
