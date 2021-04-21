@@ -14,7 +14,7 @@ _Bibliothèques XMPP_ :
 
 _Bibliothèques MQTT_ :
 
-* Eclispe paho
+* Eclipse paho
 
 ## Architecture du projet
 
