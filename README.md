@@ -130,7 +130,7 @@ Pour apercevoir, les différents événements remontés en temps réel par les p
 
   <http://localhost:8083/traffic-mgt-center/>
 
-REDIRECTION DE PORTS (_si l'architecture est déployé dans une machine vituelle_)
+REDIRECTION DE PORTS (_au cas où l'architecture sera déployé dans une machine vituelle_)
 
 * localhost 5280
 * localhost 8083
