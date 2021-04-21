@@ -44,8 +44,8 @@ var Home = {
 				password: "Centr@l0!"
 			},
 			pubsub_server: 'pubsub.example.com',
-			server: "127.0.0.2",
-			BOSH_SERVICE: "http://127.0.0.2:5280/http-bind/",
+			server: "127.0.0.1",
+			BOSH_SERVICE: "http://127.0.0.1:5280/http-bind/",
 			connection: null,
 			connectionStatus: null,
 			subscribed: false,
