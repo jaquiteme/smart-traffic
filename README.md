@@ -6,6 +6,15 @@ Le contexte de ce projet se situe dans la découverte et l'utilisation des proto
 
 * XMPP
 * MQTT qui jouent une grande importance dans le monde l'**IoT**.
+  
+_Bibliothèques XMPP_ :
+
+* SMACK _(java)_
+* STROPHE _(javascript)_
+
+_Bibliothèques MQTT_ :
+
+* Eclispe paho
 
 ## Architecture du projet
 
@@ -87,7 +96,7 @@ Le contexte de ce projet se situe dans la découverte et l'utilisation des proto
             | 49.282812 | 4.107097  |
             | 49.282844 | 4.106873  |
 
-              Ensuite, exécutez le script ```car/data/code/CarConfigGenerator.py``` et laissez vous guider. 
+              Ensuite, exécutez le script ```car/data/code/CarConfigGenerator.py``` et laissez vous guider.
 
           * **2ème manière :**
 
@@ -111,10 +120,14 @@ Le contexte de ce projet se situe dans la découverte et l'utilisation des proto
               * Embouteillage : 5
               * etc.
 
-            Et ensuite, il faudra également exécuter le script ```car/data/code/CarConfigGenerator.py```.
+            Et ensuite, il vous faudra également exécuter le script ```car/data/code/CarConfigGenerator.py```.
 
         * **Un programme d'exécution** ```car/data/code/car.py```.
 
-2. ### **APPLI WEB**
+2. ### **WEB UI**
+
+Pour apercevoir, les différents événements remontés en temps réel par les passerelles, connectez vous via l'interface au centralisateur d'événement.
+
+  <http://addr_votre_host|localhost:8083/traffic-mgt-center/>
 
 PS: les différents paquets envoyés peuvent être visualisés dans les logs ```docker-compose``` correspondant.
